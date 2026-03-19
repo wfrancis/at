@@ -45,6 +45,19 @@
 5. **Document Results**: Add review section to `tasks/todo.md`
 6. **Capture Lessons**: Update `tasks/lessons.md` after corrections
 
+### 7. Feedback-Revision Loop (HARD CONSTRAINT)
+- When revising a document based on AI agent feedback:
+  1. **Revise**: Deploy researcher + lawyer agents to rewrite the document addressing ALL open feedback
+  2. **Save**: Timestamp the revision in `revisions/` directory (e.g., `revision_2026-03-18_v1.md`)
+  3. **Track**: Log every addressed finding in `feedbackaddressed.md` with finding ID and resolution
+  4. **Re-analyze**: Re-run ALL 5 feedback personas against the revised document
+  5. **Update**: Append new findings to `feedbackrating.md` as a new dated section
+  6. **Loop**: If ANY CRITICAL or HIGH findings remain, repeat from step 1
+  7. **Exit**: Only stop when all CRITICAL and HIGH findings are resolved
+- This loop is MANDATORY — never ship a document with unresolved CRITICAL/HIGH feedback
+- Each loop iteration must show measurable progress (fewer findings than previous pass)
+- If a loop iteration creates NEW findings, address those too before exiting
+
 ## Core Principles
 
 - **Simplicity First**: Make every change as simple as possible. Impact minimal code.

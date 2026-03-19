@@ -735,80 +735,298 @@ add_para(
 page_break()
 add_section_header("7. Corporate Governance & Entity Management")
 add_para(
-    "The Legal Department is responsible for overseeing the Company\u2019s corporate governance framework and maintaining "
-    "accurate and complete records for all legal entities within the Company\u2019s organizational structure."
+    "The Legal Department is responsible for overseeing the Company\u2019s corporate governance framework, maintaining "
+    "accurate and complete records for all legal entities within the Company\u2019s organizational structure, ensuring "
+    "continuous compliance with the Internal Revenue Code (\u201CIRC\u201D) requirements for real estate investment trust "
+    "(\u201CREIT\u201D) qualification under IRC Sections 856 through 860, and coordinating with Finance and external advisors "
+    "on all SEC reporting obligations. These procedures are designed to satisfy the governance, compliance, and "
+    "reporting standards expected by the Company\u2019s credit facility lenders, joint venture partners, and regulatory authorities."
 )
 add_para("These procedures are intended to:")
 add_bullets([
-    "Ensure compliance with applicable corporate and REIT requirements",
-    "Maintain accurate records of entity structure and authority",
-    "Support financing, transactional, and operational needs",
+    "Ensure continuous compliance with REIT qualification requirements under IRC Sections 856\u2013860",
+    "Maintain accurate records of entity structure, authority, and ownership across all jurisdictions",
+    "Support financing, transactional, and operational needs, including credit facility covenant compliance",
     "Preserve institutional knowledge of the Company\u2019s legal structure",
+    "Coordinate with Finance on SEC periodic reporting obligations (Forms 10-K, 10-Q, and 8-K)",
+    "Provide a framework for internal reporting of compliance concerns, including whistleblower protections",
 ])
 
 add_sub_header("A. Entity Management")
-add_para("The Legal Department maintains a centralized record of all Company entities in SharePoint, including:")
+add_para(
+    "The Legal Department maintains a centralized record of all Company entities in the Company\u2019s dedicated entity "
+    "management system (\u201CEntity Management System\u201D). The Entity Management System shall be a purpose-built platform "
+    "(e.g., Diligent Entities, CSC Entity Management, or equivalent) and shall serve as the single authoritative "
+    "source for all entity-related data. Spreadsheet-based tracking is not an acceptable primary repository for entity records."
+)
+add_para("The Entity Management System shall contain, at a minimum, the following information for each entity:")
 add_bullets([
-    "Legal entity names and jurisdictions of formation",
-    "Ownership structure and organizational charts",
-    "Governing documents (e.g., operating agreements, bylaws)",
-    "Registered agents and principal offices",
-    "Qualification and good standing status",
+    "Legal entity name, entity type (LLC, LP, corporation, trust, etc.), and EIN/tax identification number",
+    "Jurisdiction of formation and date of formation",
+    "Current ownership structure, including ownership percentages and organizational charts",
+    "Governing documents (e.g., operating agreements, limited partnership agreements, bylaws, declarations of trust)",
+    "Registered agent name, address, and contact information for each jurisdiction of qualification",
+    "Principal office address and service of process address",
+    "Current good standing status in jurisdiction of formation and each jurisdiction of qualification",
+    "Officers, managers, directors, and authorized signatories, including dates of appointment and removal",
+    "Material intercompany agreements and loans",
 ])
-add_para("Legal is responsible for coordinating:")
+add_para("The Legal Department is responsible for coordinating the following entity actions:")
 add_bullets([
-    "Entity formation and dissolution",
-    "Amendments to governing documents",
-    "Intercompany structuring changes",
+    "Entity formation and dissolution, including preparation of all organizational documents and filings",
+    "Amendments to governing documents, subject to required approvals under the delegation of authority framework",
+    "Intercompany restructuring, mergers, and conversions",
+    "Foreign qualification and withdrawal filings",
+    "Changes to registered agents or registered offices",
+])
+
+add_sub_header("B. Entity Record Annual Review and Attestation")
+add_para(
+    "The Legal Department shall conduct a comprehensive annual review of all entity records no later than the end "
+    "of the first quarter of each calendar year. The annual review shall include the following procedures:"
+)
+add_numbered([
+    "The Legal Department shall generate a complete entity register from the Entity Management System, listing "
+    "every active entity, its jurisdiction of formation, jurisdictions of qualification, registered agent, and current good standing status.",
+    "The Legal Department shall compare the entity register against the Company\u2019s tax records, organizational charts, "
+    "and financial statements to identify any discrepancies, missing entities, or stale records.",
+    "For each entity, the Legal Department shall verify that (a) governing documents on file are current and reflect "
+    "all amendments, (b) ownership records match the Company\u2019s capitalization records and tax filings, (c) officer "
+    "and manager lists are current, and (d) registered agent information is accurate.",
+    "The Legal Department shall prepare a written Entity Records Attestation Report summarizing the results of the "
+    "annual review, identifying any deficiencies and corrective actions taken or planned.",
+    "The General Counsel shall sign the Entity Records Attestation Report and deliver a copy to the Chief Financial "
+    "Officer and the Board (or applicable governing body) no later than April 30 of each year.",
 ])
 add_para(
-    "Entity records must be reviewed and updated at least annually, or upon the occurrence of a material event "
-    "(e.g., acquisition, disposition, financing, or restructuring). The Department maintains a master entity "
-    "spreadsheet that serves as the primary reference for all entity-related inquiries."
+    "In addition to the annual review, entity records must be updated promptly upon the occurrence of any material "
+    "event, including but not limited to an acquisition, disposition, financing, refinancing, joint venture formation, "
+    "or restructuring."
 )
 
-add_sub_header("B. Governance Documentation")
+add_sub_header("C. Governance Documentation")
 add_para("The Legal Department maintains and organizes governance records, including:")
 add_bullets([
-    "Member and board approvals",
-    "Written consents and resolutions",
-    "Officer and manager appointments",
+    "Member, manager, and board approvals and meeting minutes",
+    "Written consents and resolutions (including unanimous written consents in lieu of meetings)",
+    "Officer, manager, and director appointments and removals",
     "Delegation of authority documentation",
+    "Annual conflict-of-interest questionnaires and disclosures",
+    "Related-party transaction approvals and documentation",
 ])
 add_para(
     "All governance actions must be properly documented and retained in the Company\u2019s document management system "
-    "(SharePoint). The Department maintains a governance calendar to track recurring approval requirements, annual "
-    "meeting obligations, and filing deadlines."
+    "(SharePoint). The Department maintains the Governance Calendar described in Section 7.H below to track "
+    "recurring approval requirements, annual meeting obligations, board deliverables, and filing deadlines."
 )
 
-add_sub_header("C. Authority and Approvals")
+add_sub_header("D. Authority and Approvals")
 add_para(
     "The Legal Department supports the implementation and maintenance of the Company\u2019s delegation of authority "
     "framework (see Attachment A: Delegation of Authority Matrix)."
 )
 add_para("Responsibilities include:")
 add_bullets([
-    "Confirming authority for execution of contracts and leases",
-    "Coordinating approvals for material transactions",
-    "Maintaining records of authorized signatories",
+    "Confirming authority for execution of contracts, leases, loan documents, and conveyance instruments",
+    "Coordinating approvals for material transactions, including transactions that require board-level or member-level consent",
+    "Maintaining records of authorized signatories, including specimen signature cards where required by lenders or title companies",
     "Verifying that approval thresholds are followed prior to document execution",
+    "Coordinating with the Acquisitions Department and Asset Management on authority requirements for acquisition, disposition, and financing transactions",
 ])
 add_para(
-    "The Department will circulate an updated list of authorized signatories to relevant departments no less than "
-    "annually and upon any change in authorized personnel."
+    "The Department will circulate an updated list of authorized signatories to all relevant departments, including "
+    "Finance, Asset Management, the Acquisitions Department, and Property Management, no less than annually and "
+    "within five (5) business days of any change in authorized personnel."
 )
 
-add_sub_header("D. Compliance and Filings")
-add_para("The Legal Department coordinates with internal and external service providers to ensure:")
+add_sub_header("E. REIT Compliance Monitoring")
+add_para(
+    "The Company has elected to be taxed as a REIT under the Internal Revenue Code. Maintenance of REIT qualification "
+    "is an existential requirement. Loss of REIT status would subject the Company to corporate-level federal income "
+    "tax and could trigger defaults under the Company\u2019s credit facilities and joint venture agreements. The Legal "
+    "Department, in coordination with Finance and the Company\u2019s external tax advisors, is responsible for monitoring "
+    "and supporting compliance with the following REIT qualification requirements:"
+)
+add_para("**Asset Tests (IRC Section 856(c)(4)).**")
 add_bullets([
-    "Timely filing of annual reports and required state filings",
-    "Maintenance of good standing for all entities",
-    "Compliance with REIT-related legal requirements",
+    "At the close of each calendar quarter, at least 75% of the value of the Company\u2019s total assets must consist of real estate assets, cash, cash items, and government securities (the \u201C75% Asset Test\u201D).",
+    "Not more than 25% of the value of the Company\u2019s total assets may consist of securities other than those qualifying under the 75% Asset Test.",
+    "Not more than 5% of the value of the Company\u2019s total assets may consist of the securities of any one issuer (other than a TRS or a qualified REIT subsidiary), and the Company may not hold more than 10% of the outstanding voting securities or 10% of the total value of the outstanding securities of any one issuer (the \u201C5%/10% Asset Tests\u201D).",
+    "The aggregate value of all taxable REIT subsidiary (\u201CTRS\u201D) securities held by the Company may not exceed 20% of the value of the Company\u2019s total assets.",
+])
+add_para("**Gross Income Tests (IRC Section 856(c)(2) and (3)).**")
+add_bullets([
+    "At least 75% of the Company\u2019s gross income for each taxable year must be derived from rents from real property, interest on obligations secured by mortgages on real property, gain from the sale of real property, dividends from other REITs, and other qualifying real estate income (the \u201C75% Gross Income Test\u201D).",
+    "At least 95% of the Company\u2019s gross income for each taxable year must be derived from sources that satisfy the 75% Gross Income Test plus dividends, interest, and gain from the sale of securities (the \u201C95% Gross Income Test\u201D).",
+    "The Legal Department shall coordinate with Finance to ensure that rents from real property satisfy the requirements of IRC Section 856(d), including limitations on impermissible tenant services, related-party rents, and personal property rent components exceeding 15% of total rent.",
+])
+add_para("**Distribution Requirements (IRC Section 857(a)).**")
+add_bullets([
+    "The Company must distribute to its shareholders at least 90% of its REIT taxable income (determined without regard to the dividends-paid deduction and excluding net capital gains) for each taxable year.",
+    "The Legal Department shall coordinate with Finance to verify that distribution calculations are completed no later than sixty (60) days after the close of each taxable year and that required distributions are declared and paid within the time limits prescribed by IRC Section 857.",
+    "The Legal Department shall monitor compliance with the preferential dividend rules and consent dividend procedures as applicable.",
+])
+add_para("**Organizational Requirements (IRC Section 856(a) and (b)).**")
+add_bullets([
+    "The Company must be managed by one or more trustees or directors.",
+    "The beneficial ownership of the Company must be evidenced by transferable shares or certificates.",
+    "The Company must have at least 100 shareholders for at least 335 days of each taxable year of 12 months (the \u201C100 Shareholder Test\u201D).",
+    "No more than 50% of the value of the outstanding shares of the Company may be owned, directly or constructively, by five or fewer individuals during the last half of any taxable year (the \u201C5/50 Test\u201D).",
 ])
 add_para(
-    "The Department utilizes an external registered agent service provider for state filings and good standing "
-    "maintenance. The Department maintains a compliance calendar with all recurring filing deadlines, organized by "
-    "entity and jurisdiction. Filing status is reviewed quarterly and reported to the CFO."
+    "The Legal Department shall maintain a REIT Compliance Checklist, updated quarterly in coordination with Finance "
+    "and external tax counsel. Any potential or actual REIT compliance failure must be reported immediately to the "
+    "General Counsel and the Chief Financial Officer, and a remediation plan must be developed within five (5) "
+    "business days of identification."
+)
+
+add_sub_header("F. State Filing Requirements and Remediation")
+add_para(
+    "The Legal Department, in coordination with the Company\u2019s external registered agent service provider, is responsible "
+    "for ensuring timely filing of all required state-level filings for each Company entity. State filings fall into "
+    "the following categories:"
+)
+add_para("**Annual Reports and Statements of Information.**")
+add_bullets([
+    "Annual reports, biennial reports, or statements of information required by each state in which an entity is formed or qualified to do business.",
+    "Deadlines and requirements vary by state. The Legal Department shall maintain a master state filing calendar within the Entity Management System, with automated reminders set no fewer than sixty (60) days and thirty (30) days prior to each filing deadline.",
+])
+add_para("**Franchise Tax and Business Tax Filings.**")
+add_bullets([
+    "Franchise tax returns, gross receipts tax filings, and similar state-level business tax filings required as a condition of maintaining good standing (e.g., Delaware annual franchise tax, Texas franchise tax, California LLC annual tax).",
+    "The Legal Department shall coordinate with Finance and the Company\u2019s external tax advisors to ensure timely preparation and payment of all franchise tax obligations.",
+])
+add_para("**Foreign Qualification and Withdrawal Filings.**")
+add_bullets([
+    "Applications for authority to transact business in states where a Company entity owns real property, maintains an office, or otherwise conducts activities requiring qualification.",
+    "Certificates of withdrawal or cancellation when an entity ceases operations in a state.",
+    "The Legal Department shall review foreign qualification requirements whenever the Company acquires or disposes of property in a new jurisdiction or commences operations in a jurisdiction where it is not currently qualified.",
+])
+add_para("**Registered Agent and Registered Office Changes.**")
+add_bullets([
+    "Filings required to update registered agent or registered office information with the applicable Secretary of State.",
+])
+add_para(
+    "**Procedure for Missed or Late State Filings.** In the event that a state filing deadline is missed or a filing "
+    "is submitted late, the following remediation procedure shall apply:"
+)
+add_numbered([
+    "The responsible Legal Department team member shall notify the General Counsel immediately upon discovering a missed or late filing.",
+    "Within two (2) business days, the Legal Department shall determine the cause of the missed filing, assess whether the entity\u2019s good standing has been affected, and identify any penalties, interest, or other consequences.",
+    "Within five (5) business days, the Legal Department shall prepare and submit the delinquent filing, together with any required penalties or late fees.",
+    "If the entity\u2019s good standing has been revoked or suspended, the Legal Department shall initiate reinstatement proceedings immediately and shall notify the Chief Financial Officer and any lenders or counterparties who require good standing certifications under applicable loan agreements or contracts.",
+    "The Legal Department shall prepare a written incident report documenting the missed filing, root cause, remediation steps taken, and preventive measures implemented. The incident report shall be retained in the Entity Management System and reviewed as part of the quarterly compliance review.",
+    "The General Counsel shall report any missed filing that results in loss of good standing or material penalty to executive leadership within five (5) business days of discovery.",
+])
+
+add_sub_header("G. SEC Reporting Coordination")
+add_para(
+    "The Legal Department supports the Company\u2019s SEC reporting obligations in coordination with Finance, external "
+    "auditors, and outside securities counsel. The Legal Department\u2019s responsibilities include:"
+)
+add_bullets([
+    "Reviewing and providing legal input on the Company\u2019s Annual Report on Form 10-K, including the legal proceedings disclosure (Item 3), risk factor updates (Item 1A), and legal contingency footnotes.",
+    "Reviewing and providing legal input on the Company\u2019s Quarterly Reports on Form 10-Q, including updates to legal proceedings and contingency disclosures.",
+    "Coordinating preparation and filing of Current Reports on Form 8-K for reportable events, including material definitive agreements, acquisitions and dispositions of assets, creation of direct financial obligations, changes in control, and departure or appointment of directors or principal officers.",
+    "Maintaining a log of potential 8-K triggering events and monitoring business activities across departments (including the Acquisitions Department, Finance, and Asset Management) to identify reportable events promptly.",
+    "Supporting the preparation and review of proxy statements, information statements, and other SEC filings as required.",
+    "Coordinating with outside securities counsel on Section 16 filings (Forms 3, 4, and 5) for directors, officers, and beneficial owners.",
+])
+add_para(
+    "The Legal Department shall participate in the Company\u2019s disclosure committee (or equivalent review process) and "
+    "shall maintain a SEC Reporting Calendar with all periodic filing deadlines, earnings release dates, and "
+    "blackout periods."
+)
+
+add_sub_header("H. Governance and Compliance Calendars")
+add_para(
+    "The Legal Department shall maintain two integrated calendars to track all recurring governance and compliance "
+    "obligations: the Governance Calendar and the REIT Compliance Calendar. Both calendars shall be maintained in "
+    "the Entity Management System with automated alerts and shall be reviewed at the quarterly Finance Coordination "
+    "meeting described in Section 9."
+)
+add_para("**Governance Calendar.** The Governance Calendar shall include, at a minimum:")
+add_bullets([
+    "Annual meeting dates (or deadlines for written consents in lieu of meetings) for all entities requiring annual governance actions",
+    "Board and committee meeting schedules and deliverable deadlines",
+    "Annual officer and manager appointment or reappointment deadlines",
+    "Annual conflict-of-interest questionnaire distribution and collection deadlines",
+    "Delegation of authority review and recirculation date",
+    "Authorized signatory list update and distribution date",
+    "Entity Records Attestation Report deadline (April 30)",
+    "Annual insurance renewal review coordination with Risk Management",
+    "SEC filing deadlines (10-K, 10-Q, 8-K, proxy materials) coordinated with Finance",
+])
+add_para("**REIT Compliance Calendar.** The REIT Compliance Calendar shall include, at a minimum:")
+
+add_table(
+    ["Item", "Frequency", "Responsible Parties", "Deadline / Timing"],
+    [
+        ["Asset Test Compliance Review (75%, 5%/10%, TRS 20%)", "Quarterly", "Finance + Legal + Tax Advisor",
+         "Within 30 days after quarter-end"],
+        ["Gross Income Test Review (75% and 95%)", "Quarterly", "Finance + Legal + Tax Advisor",
+         "Within 30 days after quarter-end"],
+        ["Distribution Requirement Calculation", "Annually", "Finance + Legal + Tax Advisor",
+         "Within 60 days after taxable year-end"],
+        ["100 Shareholder Test Verification", "Annually", "Finance + Transfer Agent",
+         "Prior to year-end (335-day count)"],
+        ["5/50 Ownership Concentration Test", "Semi-annually", "Finance + Transfer Agent",
+         "Last half of each taxable year"],
+        ["TRS Activity and Income Review", "Quarterly", "Finance + Legal + Tax Advisor",
+         "Within 30 days after quarter-end"],
+        ["Related-Party Rent Review (IRC 856(d))", "Quarterly", "Finance + Legal + Tax Advisor",
+         "Within 30 days after quarter-end"],
+        ["Impermissible Tenant Service Income Review", "Quarterly", "Finance + Legal + Asset Mgmt",
+         "Within 30 days after quarter-end"],
+        ["Prohibited Transaction Screen (IRC 857(b)(6))", "Per transaction", "Legal + Tax Advisor",
+         "Prior to closing of each disposition"],
+        ["Annual REIT Compliance Certification", "Annually", "General Counsel + CFO",
+         "Within 90 days after taxable year-end"],
+        ["State Filing Compliance Review", "Quarterly", "Legal + Registered Agent",
+         "15th day of month following quarter-end"],
+        ["Good Standing Certificate Collection", "Annually", "Legal + Registered Agent",
+         "No later than March 31"],
+    ],
+    [2.0, 1.0, 1.8, 1.7]
+)
+
+add_sub_header("I. Whistleblower and Internal Compliance Reporting")
+add_para(
+    "The Company is committed to maintaining an environment in which employees, officers, contractors, and other "
+    "stakeholders can report suspected violations of law, regulation, Company policy, or ethical standards without "
+    "fear of retaliation. The Legal Department administers the following internal reporting mechanisms:"
+)
+add_para("**Reporting Channels.** Reports may be submitted through any of the following channels:")
+add_bullets([
+    "Directly to the General Counsel or any attorney in the Legal Department, in person, by telephone, or by email",
+    "Through the Company\u2019s anonymous ethics and compliance hotline (telephone and web-based intake), which is operated by an independent third-party provider",
+    "In writing to the Chair of the Audit Committee of the Board (or applicable governing body), delivered via the Company\u2019s registered office address marked \u201CConfidential \u2013 Audit Committee\u201D",
+])
+add_para("**Scope of Reportable Matters.** The following categories of concerns are reportable under this procedure:")
+add_bullets([
+    "Suspected fraud, embezzlement, or financial irregularities",
+    "Violations of securities laws, REIT compliance requirements, or tax laws",
+    "Violations of the Company\u2019s Code of Business Conduct and Ethics",
+    "Suspected violations of environmental, health, or safety regulations",
+    "Suspected violations of Fair Housing laws, the Americans with Disabilities Act (\u201CADA\u201D), or other anti-discrimination laws applicable to the Company\u2019s properties and operations",
+    "Conflicts of interest or related-party transactions not properly disclosed",
+    "Retaliation against any person who has made a good-faith report under this procedure",
+])
+add_para("**Investigation and Resolution.**")
+add_numbered([
+    "All reports shall be logged by the Legal Department (or the third-party hotline provider) and assigned a tracking number within one (1) business day of receipt.",
+    "The General Counsel shall conduct an initial assessment within five (5) business days to determine the nature, severity, and appropriate scope of investigation.",
+    "Matters involving financial reporting, accounting fraud, or auditing concerns shall be referred to the Audit Committee or its designee.",
+    "The Legal Department shall oversee or coordinate the investigation, engaging outside counsel or forensic specialists as appropriate.",
+    "Upon completion of the investigation, the Legal Department shall prepare a written report of findings and recommended corrective actions.",
+    "The General Counsel shall report the status of all open and recently closed investigations to the Audit Committee (or applicable governing body) no less than quarterly.",
+])
+add_para("**Non-Retaliation.**")
+add_para(
+    "The Company prohibits retaliation against any individual who makes a good-faith report under this procedure or "
+    "who participates in an investigation. Any employee found to have engaged in retaliation shall be subject to "
+    "disciplinary action, up to and including termination. The Legal Department shall include non-retaliation "
+    "protections in the Company\u2019s employee handbook and shall address whistleblower protections in annual compliance training."
 )
 
 # ============================================================
@@ -818,43 +1036,125 @@ page_break()
 add_section_header("8. Confidentiality & Information Handling")
 add_para(
     "The Legal Department handles sensitive and confidential information, including privileged communications, "
-    "litigation materials, and proprietary business information. Proper handling of such information is critical "
-    "to protecting the Company\u2019s legal position and maintaining confidentiality obligations."
+    "litigation materials, proprietary business information, tenant personal information, and regulatory compliance "
+    "records. Proper handling of such information is critical to protecting the Company\u2019s legal position, maintaining "
+    "confidentiality obligations, and ensuring compliance with applicable privacy, fair housing, and anti-discrimination laws."
 )
 
-add_sub_header("A. Confidential Information")
+add_sub_header("A. Document Classification Levels")
+add_para(
+    "All documents and communications generated, received, or maintained by the Legal Department shall be classified "
+    "according to one of the following four classification levels. The classification level determines the handling, "
+    "storage, distribution, and disposal requirements applicable to the document."
+)
+
+add_table(
+    ["Classification Level", "Definition", "Handling Requirements"],
+    [
+        ["PRIVILEGED",
+         "Attorney-client privileged communications and attorney work product",
+         "Restricted to Legal Department and specifically authorized recipients; must bear privilege header; "
+         "may not be forwarded outside the Company without General Counsel approval; stored in access-controlled "
+         "folders within SharePoint with audit logging enabled"],
+        ["CONFIDENTIAL",
+         "Non-privileged information that is commercially sensitive, including transaction terms, tenant financial "
+         "data, litigation settlement amounts, REIT compliance data, personnel matters, and whistleblower reports",
+         "Distribution limited to individuals with a documented business need; must bear \u201CCONFIDENTIAL\u201D marking; "
+         "stored in access-controlled SharePoint folders; may not be transmitted to external parties without "
+         "General Counsel or authorized officer approval"],
+        ["INTERNAL",
+         "Information intended for internal Company use that is not publicly available but does not rise to the "
+         "level of Confidential, including internal policies, standard form agreements, and general legal updates",
+         "May be shared within the Company without restriction; stored in SharePoint; should not be shared "
+         "externally without department-head approval"],
+        ["PUBLIC",
+         "Information that has been approved for public disclosure, including SEC filings, press releases, "
+         "and publicly recorded documents",
+         "No distribution restrictions; stored in SharePoint and applicable public filing systems"],
+    ],
+    [1.3, 2.5, 2.7]
+)
+
+add_para(
+    "All Legal Department personnel are responsible for applying the appropriate classification level to documents "
+    "and communications at the time of creation. When in doubt as to the proper classification, the document shall "
+    "be treated as CONFIDENTIAL pending review by the General Counsel or a designated attorney."
+)
+
+add_sub_header("B. Confidential Information")
 add_para("Confidential information includes, but is not limited to:")
 add_bullets([
-    "Legal advice and attorney-client communications",
-    "Litigation strategy and work product",
-    "Tenant disputes and negotiations",
-    "Regulatory matters",
-    "Transaction-related information",
+    "Legal advice and attorney-client communications (classified as PRIVILEGED)",
+    "Litigation strategy, work product, and settlement discussions",
+    "Tenant disputes, negotiations, and tenant financial information",
+    "Regulatory matters, governmental inquiries, and examination materials",
+    "Transaction-related information, including acquisition and disposition terms, due diligence materials, and financing documents",
+    "REIT compliance data, including asset test calculations, income test analyses, and distribution computations",
+    "Employee and personnel matters, including whistleblower reports and investigation files",
+    "Fair housing complaint files, ADA accommodation requests, and anti-discrimination investigation records",
+    "Tenant personal information, including financial statements, tax returns, and guarantor information submitted in connection with leasing",
 ])
 
-add_sub_header("B. Attorney-Client Privilege")
+add_sub_header("C. Attorney-Client Privilege")
 add_para(
     "Communications involving the Legal Department that are intended to provide or request legal advice may be "
-    "protected by attorney-client privilege."
+    "protected by attorney-client privilege. Preservation of attorney-client privilege is essential to the Company\u2019s "
+    "ability to receive candid legal advice and to protect its legal positions."
 )
-add_para("Employees should:")
+add_para("All employees shall adhere to the following privilege preservation requirements:")
 add_bullets([
-    "Limit distribution of privileged communications",
-    "Avoid forwarding privileged emails outside the Company without Legal approval",
-    "Clearly label privileged communications where appropriate",
+    "Limit distribution of privileged communications to only those individuals who have a need to receive the legal advice",
+    "Do not forward privileged emails to any person outside the Company, or to any person inside the Company who is not an intended recipient, without prior approval from the Legal Department",
+    "Do not copy or summarize privileged legal advice in non-privileged documents (e.g., board presentations, internal memoranda to non-legal personnel) without first consulting with the Legal Department",
+    "Clearly label all privileged communications with the required header at the top of the document or email",
+    "Do not discuss privileged legal advice in the presence of third parties, including consultants, vendors, or joint venture partners, unless the Legal Department has confirmed that a common-interest or joint-defense privilege applies",
 ])
 add_para(
-    "Privileged communications should be labeled with the following header: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 "
-    "ATTORNEY-CLIENT COMMUNICATION.\u201D The Department will periodically remind internal stakeholders of privilege "
-    "preservation obligations through training and written guidance."
+    "Privileged communications shall be labeled with the following header: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 "
+    "ATTORNEY-CLIENT COMMUNICATION. This communication is protected by the attorney-client privilege and/or the "
+    "work product doctrine. Do not forward, copy, or disclose without the prior authorization of the Legal Department.\u201D"
+)
+add_para(
+    "The Legal Department will conduct privilege preservation training for all employees no less than annually and "
+    "will issue written guidance on privilege protocols to new employees as part of the onboarding process."
 )
 
-add_sub_header("C. Document Handling and Retention")
+add_sub_header("D. Digital Communications and Information Security")
 add_para(
-    "Legal documents should be stored in approved systems (e.g., SharePoint) and should not be stored locally or "
-    "outside authorized platforms. Access to sensitive materials should be limited to individuals with a business need."
+    "The following procedures apply to the handling of Privileged and Confidential information in digital "
+    "communications, including email, instant messaging platforms, video conferencing, and cloud-based collaboration tools:"
 )
-add_para("The Department maintains a document retention schedule, organized by category:")
+add_numbered([
+    "**Email.** Privileged and Confidential information shall be transmitted via the Company\u2019s approved email system only. "
+    "Employees shall not use personal email accounts to transmit or receive Privileged or Confidential information. "
+    "Emails containing Privileged information must include the privilege header. Emails containing Confidential "
+    "information must include \u201CCONFIDENTIAL\u201D in the subject line.",
+    "**Instant Messaging and Collaboration Platforms.** Privileged legal advice shall not be communicated via instant "
+    "messaging platforms (e.g., Microsoft Teams chat, Slack) unless the platform has been approved by the Legal "
+    "Department and IT for privileged communications and retains messages in accordance with the Company\u2019s retention "
+    "policies. Confidential information may be shared on approved platforms only in channels with access restricted "
+    "to authorized personnel.",
+    "**Video Conferencing.** When discussing Privileged or Confidential matters via video conference, participants shall "
+    "verify attendee identity, use password-protected meetings, disable recording unless the Legal Department has "
+    "approved recording for the specific meeting, and ensure that no unauthorized individuals are present in the "
+    "physical meeting space.",
+    "**Cloud Storage and File Sharing.** Privileged and Confidential documents shall be stored only in approved, "
+    "access-controlled repositories (SharePoint, ShareFile). Documents shall not be uploaded to personal cloud "
+    "storage accounts (e.g., personal Dropbox, Google Drive) or shared via unapproved file-sharing services. "
+    "Links to Confidential documents shall be set to expire and shall require Company credentials for access.",
+    "**Mobile Devices.** Employees who access Privileged or Confidential information on mobile devices must comply with "
+    "the Company\u2019s mobile device management (\u201CMDM\u201D) policy, including device encryption, passcode requirements, and "
+    "remote wipe capability.",
+])
+
+add_sub_header("E. Document Handling and Retention")
+add_para(
+    "Legal documents shall be stored in approved systems (SharePoint or ShareFile, as specified below) and shall not "
+    "be stored on local hard drives, personal devices, or outside authorized platforms. Access to sensitive materials "
+    "shall be limited to individuals with a documented business need, and access permissions shall be reviewed "
+    "quarterly by the Legal Department."
+)
+add_para("The Department maintains the following document retention schedule:")
 
 add_table(
     ["Document Category", "Retention Period", "Storage Location"],
@@ -862,36 +1162,68 @@ add_table(
         ["Executed Leases", "Life of lease + 7 years", "ShareFile"],
         ["Lease Drafts and Negotiations", "Life of lease + 3 years", "SharePoint"],
         ["Litigation Files", "Resolution + 7 years", "SharePoint / Outside Counsel"],
-        ["Corporate Governance Records", "Permanent", "SharePoint"],
+        ["Corporate Governance Records", "Permanent", "SharePoint / Entity Mgmt System"],
+        ["REIT Compliance Records", "Permanent", "SharePoint"],
+        ["SEC Filings and Support", "Permanent", "SharePoint"],
         ["Outside Counsel Invoices", "7 years", "SharePoint / Finance"],
+        ["Fair Housing / ADA Complaint Files", "Resolution + 7 years", "SharePoint (restricted access)"],
+        ["Whistleblower Reports and Investigation Files", "Resolution + 7 years", "SharePoint (restricted access)"],
         ["General Correspondence", "3 years", "SharePoint"],
         ["Regulatory Filings", "Permanent", "SharePoint"],
+        ["Entity Formation and Qualification Documents", "Life of entity + 7 years", "Entity Mgmt System / SharePoint"],
     ],
     [2.2, 2.2, 2.1]
 )
 
-add_sub_header("D. Litigation Hold Procedures")
+add_sub_header("F. Fair Housing, ADA, and Anti-Discrimination Compliance")
 add_para(
-    "Upon identification of a matter that may result in litigation or regulatory investigation, the Department "
-    "will implement a litigation hold to preserve all potentially relevant documents and communications."
+    "The Company\u2019s properties and operations are subject to federal, state, and local fair housing, accessibility, "
+    "and anti-discrimination laws, including without limitation the Fair Housing Act (42 U.S.C. \u00a7\u00a7 3601\u20133619), the "
+    "Americans with Disabilities Act (\u201CADA\u201D) (42 U.S.C. \u00a7\u00a7 12101 et seq.), Section 504 of the Rehabilitation Act, "
+    "and applicable state and local human rights laws. The Legal Department is responsible for the following:"
 )
-add_para("Litigation hold procedures include:")
-add_numbered([
-    "The Department issues a written litigation hold notice to all relevant custodians, identifying the matter and the categories of documents to be preserved.",
-    "Custodians must acknowledge receipt of the hold notice in writing.",
-    "The Department coordinates with IT to suspend any automated deletion or archiving processes for documents within the scope of the hold.",
-    "The hold remains in effect until the Department issues a written release notice.",
-    "The Department maintains a log of all active and released litigation holds.",
+add_bullets([
+    "Advising Property Management and Asset Management on fair housing and ADA compliance obligations, including reasonable accommodation and reasonable modification procedures",
+    "Reviewing and approving the Company\u2019s fair housing and anti-discrimination policies, marketing materials, and tenant selection criteria to ensure compliance with applicable law",
+    "Coordinating the Company\u2019s response to fair housing complaints, HUD complaints, and state or local human rights commission inquiries",
+    "Maintaining a log of all fair housing and ADA complaints, requests for accommodation, and related investigations, classified as CONFIDENTIAL",
+    "Supporting the Company\u2019s ADA compliance program, including coordination with architects, engineers, and accessibility consultants on ADA surveys, barrier removal plans, and new construction or renovation accessibility requirements",
+    "Ensuring that all fair housing and ADA complaint records are retained in accordance with the retention schedule in Section 8.E and are stored in access-restricted SharePoint folders",
+    "Including fair housing and anti-discrimination compliance topics in the annual Legal Department training program described in Section 10",
 ])
 
-add_sub_header("E. External Communications")
-add_para("Only authorized personnel may communicate with:")
-add_bullets([
-    "Outside counsel",
-    "Opposing counsel",
-    "Regulatory authorities",
+add_sub_header("G. Litigation Hold Procedures")
+add_para(
+    "Upon identification of a matter that may result in litigation, arbitration, regulatory investigation, or "
+    "governmental inquiry, the Legal Department shall implement a litigation hold to preserve all potentially "
+    "relevant documents and communications. Failure to preserve relevant documents may result in spoliation "
+    "sanctions and adverse inferences."
+)
+add_para("Litigation hold procedures are as follows:")
+add_numbered([
+    "The Legal Department issues a written litigation hold notice to all relevant custodians, identifying the matter, the categories of documents to be preserved, and the obligation to suspend any routine destruction or deletion of documents within the scope of the hold.",
+    "Each custodian must acknowledge receipt of the litigation hold notice in writing (email acknowledgment is acceptable) within three (3) business days. The Legal Department shall follow up with any custodian who has not acknowledged within the required timeframe.",
+    "The Legal Department coordinates with IT to suspend any automated deletion, archiving, or overwriting processes for documents, emails, instant messages, and other electronically stored information within the scope of the hold.",
+    "The Legal Department issues periodic reminders (no less than every ninety (90) days) to all custodians subject to an active litigation hold, confirming the hold remains in effect and reminding custodians of their preservation obligations.",
+    "The hold remains in effect until the Legal Department issues a written release notice. Upon release, custodians are notified in writing that the hold has been lifted and that normal retention and destruction schedules may resume for the previously held materials.",
+    "The Legal Department maintains a litigation hold log documenting all active and released holds, including the date of issuance, custodians notified, acknowledgment status, and date of release.",
 ])
-add_para("All external legal communications should be coordinated through the Legal Department.")
+
+add_sub_header("H. External Communications")
+add_para("Only personnel authorized by the General Counsel may communicate on behalf of the Company with:")
+add_bullets([
+    "Outside counsel engaged by the Company",
+    "Opposing counsel or adverse parties in any legal matter",
+    "Regulatory authorities, governmental agencies, and law enforcement",
+    "Fair housing agencies, human rights commissions, and the U.S. Department of Housing and Urban Development (\u201CHUD\u201D)",
+    "The SEC, state securities regulators, and stock exchange representatives",
+])
+add_para(
+    "All external legal communications shall be coordinated through the Legal Department. No employee or officer "
+    "shall respond to a subpoena, civil investigative demand, regulatory inquiry, or governmental request for "
+    "information without first consulting the Legal Department. The Legal Department shall maintain a log of all "
+    "material external legal communications."
+)
 
 # ============================================================
 # SECTION 9: COMMUNICATION & ESCALATION PROTOCOLS

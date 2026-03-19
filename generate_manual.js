@@ -583,7 +583,7 @@ children.push(...bulletList([
   "Budget vs. actual spend analysis",
   "Recommended actions or strategic decisions required",
 ]));
-children.push(para("Litigation reporting is integrated with the Legal Risk Tracker and the Legal Risk Dashboard (see Section 9 and Attachment B)."));
+children.push(para("Litigation reporting is integrated with the Legal Risk Tracker and the Legal Risk Dashboard (see Section 10 and Attachment B)."));
 
 children.push(subHeader("Post-Litigation Review"));
 children.push(para(
@@ -594,360 +594,1361 @@ children.push(para(
 children.push(pageBreak());
 children.push(sectionHeader("7. Corporate Governance & Entity Management"));
 children.push(para(
-  "The Legal Department is responsible for overseeing the Company\u2019s corporate governance framework and maintaining accurate and complete records for all legal entities within the Company\u2019s organizational structure."
+  "The Legal Department is responsible for overseeing the Company\u2019s corporate governance framework, maintaining " +
+  "accurate and complete records for all legal entities within the Company\u2019s organizational structure, ensuring " +
+  "continuous compliance with the Internal Revenue Code (\u201CIRC\u201D) requirements for real estate investment trust " +
+  "(\u201CREIT\u201D) qualification under IRC Sections 856 through 860, and coordinating with Finance and external advisors " +
+  "on all SEC reporting obligations. These procedures are designed to satisfy the governance, compliance, and " +
+  "reporting standards expected by the Company\u2019s credit facility lenders, joint venture partners, and regulatory authorities."
 ));
 children.push(para("These procedures are intended to:"));
 children.push(...bulletList([
-  "Ensure compliance with applicable corporate and REIT requirements",
-  "Maintain accurate records of entity structure and authority",
-  "Support financing, transactional, and operational needs",
+  "Ensure continuous compliance with REIT qualification requirements under IRC Sections 856\u2013860",
+  "Maintain accurate records of entity structure, authority, and ownership across all jurisdictions",
+  "Support financing, transactional, and operational needs, including credit facility covenant compliance",
   "Preserve institutional knowledge of the Company\u2019s legal structure",
+  "Coordinate with Finance on SEC periodic reporting obligations (Forms 10-K, 10-Q, and 8-K)",
+  "Provide a framework for internal reporting of compliance concerns, including whistleblower protections",
 ]));
 
 children.push(subHeader("A. Entity Management"));
-children.push(para("The Legal Department maintains a centralized record of all Company entities in SharePoint, including:"));
+children.push(para(
+  "The Legal Department maintains a centralized record of all Company entities in the Company\u2019s dedicated entity " +
+  "management system (\u201CEntity Management System\u201D). The Entity Management System shall be a purpose-built platform " +
+  "(e.g., Diligent Entities, CSC Entity Management, or equivalent) and shall serve as the single authoritative " +
+  "source for all entity-related data. Spreadsheet-based tracking is not an acceptable primary repository for entity records."
+));
+children.push(para("The Entity Management System shall contain, at a minimum, the following information for each entity:"));
 children.push(...bulletList([
-  "Legal entity names and jurisdictions of formation",
-  "Ownership structure and organizational charts",
-  "Governing documents (e.g., operating agreements, bylaws)",
-  "Registered agents and principal offices",
-  "Qualification and good standing status",
+  "Legal entity name, entity type (LLC, LP, corporation, trust, etc.), and EIN/tax identification number",
+  "Jurisdiction of formation and date of formation",
+  "Current ownership structure, including ownership percentages and organizational charts",
+  "Governing documents (e.g., operating agreements, limited partnership agreements, bylaws, declarations of trust)",
+  "Registered agent name, address, and contact information for each jurisdiction of qualification",
+  "Principal office address and service of process address",
+  "Current good standing status in jurisdiction of formation and each jurisdiction of qualification",
+  "Officers, managers, directors, and authorized signatories, including dates of appointment and removal",
+  "Material intercompany agreements and loans",
 ]));
-children.push(para("Legal is responsible for coordinating:"));
+children.push(para("The Legal Department is responsible for coordinating the following entity actions:"));
 children.push(...bulletList([
-  "Entity formation and dissolution",
-  "Amendments to governing documents",
-  "Intercompany structuring changes",
+  "Entity formation and dissolution, including preparation of all organizational documents and filings",
+  "Amendments to governing documents, subject to required approvals under the delegation of authority framework",
+  "Intercompany restructuring, mergers, and conversions",
+  "Foreign qualification and withdrawal filings",
+  "Changes to registered agents or registered offices",
+]));
+
+children.push(subHeader("B. Entity Record Annual Review and Attestation"));
+children.push(para(
+  "The Legal Department shall conduct a comprehensive annual review of all entity records no later than the end " +
+  "of the first quarter of each calendar year. The annual review shall include the following procedures:"
+));
+children.push(...numberedList([
+  "The Legal Department shall generate a complete entity register from the Entity Management System, listing " +
+  "every active entity, its jurisdiction of formation, jurisdictions of qualification, registered agent, and current good standing status.",
+  "The Legal Department shall compare the entity register against the Company\u2019s tax records, organizational charts, " +
+  "and financial statements to identify any discrepancies, missing entities, or stale records.",
+  "For each entity, the Legal Department shall verify that (a) governing documents on file are current and reflect " +
+  "all amendments, (b) ownership records match the Company\u2019s capitalization records and tax filings, (c) officer " +
+  "and manager lists are current, and (d) registered agent information is accurate.",
+  "The Legal Department shall prepare a written Entity Records Attestation Report summarizing the results of the " +
+  "annual review, identifying any deficiencies and corrective actions taken or planned.",
+  "The General Counsel shall sign the Entity Records Attestation Report and deliver a copy to the Chief Financial " +
+  "Officer and the Board (or applicable governing body) no later than April 30 of each year.",
 ]));
 children.push(para(
-  "Entity records must be reviewed and updated at least annually, or upon the occurrence of a material event (e.g., acquisition, disposition, financing, or restructuring). The Department maintains a master entity spreadsheet that serves as the primary reference for all entity-related inquiries."
+  "In addition to the annual review, entity records must be updated promptly upon the occurrence of any material " +
+  "event, including but not limited to an acquisition, disposition, financing, refinancing, joint venture formation, " +
+  "or restructuring."
 ));
 
-children.push(subHeader("B. Governance Documentation"));
+children.push(subHeader("C. Governance Documentation"));
 children.push(para("The Legal Department maintains and organizes governance records, including:"));
 children.push(...bulletList([
-  "Member and board approvals",
-  "Written consents and resolutions",
-  "Officer and manager appointments",
+  "Member, manager, and board approvals and meeting minutes",
+  "Written consents and resolutions (including unanimous written consents in lieu of meetings)",
+  "Officer, manager, and director appointments and removals",
   "Delegation of authority documentation",
+  "Annual conflict-of-interest questionnaires and disclosures",
+  "Related-party transaction approvals and documentation",
 ]));
 children.push(para(
-  "All governance actions must be properly documented and retained in the Company\u2019s document management system (SharePoint). The Department maintains a governance calendar to track recurring approval requirements, annual meeting obligations, and filing deadlines."
+  "All governance actions must be properly documented and retained in the Company\u2019s document management system " +
+  "(SharePoint). The Department maintains the Governance Calendar described in Section 7.H below to track " +
+  "recurring approval requirements, annual meeting obligations, board deliverables, and filing deadlines."
 ));
 
-children.push(subHeader("C. Authority and Approvals"));
+children.push(subHeader("D. Authority and Approvals"));
 children.push(para(
-  "The Legal Department supports the implementation and maintenance of the Company\u2019s delegation of authority framework (see Attachment A: Delegation of Authority Matrix)."
+  "The Legal Department supports the implementation and maintenance of the Company\u2019s delegation of authority " +
+  "framework (see Attachment A: Delegation of Authority Matrix)."
 ));
 children.push(para("Responsibilities include:"));
 children.push(...bulletList([
-  "Confirming authority for execution of contracts and leases",
-  "Coordinating approvals for material transactions",
-  "Maintaining records of authorized signatories",
+  "Confirming authority for execution of contracts, leases, loan documents, and conveyance instruments",
+  "Coordinating approvals for material transactions, including transactions that require board-level or member-level consent",
+  "Maintaining records of authorized signatories, including specimen signature cards where required by lenders or title companies",
   "Verifying that approval thresholds are followed prior to document execution",
+  "Coordinating with the Acquisitions Department and Asset Management on authority requirements for acquisition, disposition, and financing transactions",
 ]));
 children.push(para(
-  "The Department will circulate an updated list of authorized signatories to relevant departments no less than annually and upon any change in authorized personnel."
+  "The Department will circulate an updated list of authorized signatories to all relevant departments, including " +
+  "Finance, Asset Management, the Acquisitions Department, and Property Management, no less than annually and " +
+  "within five (5) business days of any change in authorized personnel."
 ));
 
-children.push(subHeader("D. Compliance and Filings"));
-children.push(para("The Legal Department coordinates with internal and external service providers to ensure:"));
+children.push(subHeader("E. REIT Compliance Monitoring"));
+children.push(para(
+  "The Company has elected to be taxed as a REIT under the Internal Revenue Code. Maintenance of REIT qualification " +
+  "is an existential requirement. Loss of REIT status would subject the Company to corporate-level federal income " +
+  "tax and could trigger defaults under the Company\u2019s credit facilities and joint venture agreements. The Legal " +
+  "Department, in coordination with Finance and the Company\u2019s external tax advisors, is responsible for monitoring " +
+  "and supporting compliance with the following REIT qualification requirements:"
+));
+children.push(para("**Asset Tests (IRC Section 856(c)(4)).**"));
 children.push(...bulletList([
-  "Timely filing of annual reports and required state filings",
-  "Maintenance of good standing for all entities",
-  "Compliance with REIT-related legal requirements",
+  "At the close of each calendar quarter, at least 75% of the value of the Company\u2019s total assets must consist of real estate assets, cash, cash items, and government securities (the \u201C75% Asset Test\u201D).",
+  "Not more than 25% of the value of the Company\u2019s total assets may consist of securities other than those qualifying under the 75% Asset Test.",
+  "Not more than 5% of the value of the Company\u2019s total assets may consist of the securities of any one issuer (other than a TRS or a qualified REIT subsidiary), and the Company may not hold more than 10% of the outstanding voting securities or 10% of the total value of the outstanding securities of any one issuer (the \u201C5%/10% Asset Tests\u201D).",
+  "The aggregate value of all taxable REIT subsidiary (\u201CTRS\u201D) securities held by the Company may not exceed 20% of the value of the Company\u2019s total assets.",
+]));
+children.push(para("**Gross Income Tests (IRC Section 856(c)(2) and (3)).**"));
+children.push(...bulletList([
+  "At least 75% of the Company\u2019s gross income for each taxable year must be derived from rents from real property, interest on obligations secured by mortgages on real property, gain from the sale of real property, dividends from other REITs, and other qualifying real estate income (the \u201C75% Gross Income Test\u201D).",
+  "At least 95% of the Company\u2019s gross income for each taxable year must be derived from sources that satisfy the 75% Gross Income Test plus dividends, interest, and gain from the sale of securities (the \u201C95% Gross Income Test\u201D).",
+  "The Legal Department shall coordinate with Finance to ensure that rents from real property satisfy the requirements of IRC Section 856(d), including limitations on impermissible tenant services, related-party rents, and personal property rent components exceeding 15% of total rent.",
+]));
+children.push(para("**Distribution Requirements (IRC Section 857(a)).**"));
+children.push(...bulletList([
+  "The Company must distribute to its shareholders at least 90% of its REIT taxable income (determined without regard to the dividends-paid deduction and excluding net capital gains) for each taxable year.",
+  "The Legal Department shall coordinate with Finance to verify that distribution calculations are completed no later than sixty (60) days after the close of each taxable year and that required distributions are declared and paid within the time limits prescribed by IRC Section 857.",
+  "The Legal Department shall monitor compliance with the preferential dividend rules and consent dividend procedures as applicable.",
+]));
+children.push(para("**Organizational Requirements (IRC Section 856(a) and (b)).**"));
+children.push(...bulletList([
+  "The Company must be managed by one or more trustees or directors.",
+  "The beneficial ownership of the Company must be evidenced by transferable shares or certificates.",
+  "The Company must have at least 100 shareholders for at least 335 days of each taxable year of 12 months (the \u201C100 Shareholder Test\u201D).",
+  "No more than 50% of the value of the outstanding shares of the Company may be owned, directly or constructively, by five or fewer individuals during the last half of any taxable year (the \u201C5/50 Test\u201D).",
 ]));
 children.push(para(
-  "The Department utilizes an external registered agent service provider for state filings and good standing maintenance. The Department maintains a compliance calendar with all recurring filing deadlines, organized by entity and jurisdiction. Filing status is reviewed quarterly and reported to the CFO."
+  "The Legal Department shall maintain a REIT Compliance Checklist, updated quarterly in coordination with Finance " +
+  "and external tax counsel. Any potential or actual REIT compliance failure must be reported immediately to the " +
+  "General Counsel and the Chief Financial Officer, and a remediation plan must be developed within five (5) " +
+  "business days of identification."
+));
+
+children.push(subHeader("F. State Filing Requirements and Remediation"));
+children.push(para(
+  "The Legal Department, in coordination with the Company\u2019s external registered agent service provider, is responsible " +
+  "for ensuring timely filing of all required state-level filings for each Company entity. State filings fall into " +
+  "the following categories:"
+));
+children.push(para("**Annual Reports and Statements of Information.**"));
+children.push(...bulletList([
+  "Annual reports, biennial reports, or statements of information required by each state in which an entity is formed or qualified to do business.",
+  "Deadlines and requirements vary by state. The Legal Department shall maintain a master state filing calendar within the Entity Management System, with automated reminders set no fewer than sixty (60) days and thirty (30) days prior to each filing deadline.",
+]));
+children.push(para("**Franchise Tax and Business Tax Filings.**"));
+children.push(...bulletList([
+  "Franchise tax returns, gross receipts tax filings, and similar state-level business tax filings required as a condition of maintaining good standing (e.g., Delaware annual franchise tax, Texas franchise tax, California LLC annual tax).",
+  "The Legal Department shall coordinate with Finance and the Company\u2019s external tax advisors to ensure timely preparation and payment of all franchise tax obligations.",
+]));
+children.push(para("**Foreign Qualification and Withdrawal Filings.**"));
+children.push(...bulletList([
+  "Applications for authority to transact business in states where a Company entity owns real property, maintains an office, or otherwise conducts activities requiring qualification.",
+  "Certificates of withdrawal or cancellation when an entity ceases operations in a state.",
+  "The Legal Department shall review foreign qualification requirements whenever the Company acquires or disposes of property in a new jurisdiction or commences operations in a jurisdiction where it is not currently qualified.",
+]));
+children.push(para("**Registered Agent and Registered Office Changes.**"));
+children.push(...bulletList([
+  "Filings required to update registered agent or registered office information with the applicable Secretary of State.",
+]));
+children.push(para(
+  "**Procedure for Missed or Late State Filings.** In the event that a state filing deadline is missed or a filing " +
+  "is submitted late, the following remediation procedure shall apply:"
+));
+children.push(...numberedList([
+  "The responsible Legal Department team member shall notify the General Counsel immediately upon discovering a missed or late filing.",
+  "Within two (2) business days, the Legal Department shall determine the cause of the missed filing, assess whether the entity\u2019s good standing has been affected, and identify any penalties, interest, or other consequences.",
+  "Within five (5) business days, the Legal Department shall prepare and submit the delinquent filing, together with any required penalties or late fees.",
+  "If the entity\u2019s good standing has been revoked or suspended, the Legal Department shall initiate reinstatement proceedings immediately and shall notify the Chief Financial Officer and any lenders or counterparties who require good standing certifications under applicable loan agreements or contracts.",
+  "The Legal Department shall prepare a written incident report documenting the missed filing, root cause, remediation steps taken, and preventive measures implemented. The incident report shall be retained in the Entity Management System and reviewed as part of the quarterly compliance review.",
+  "The General Counsel shall report any missed filing that results in loss of good standing or material penalty to executive leadership within five (5) business days of discovery.",
+]));
+
+children.push(subHeader("G. SEC Reporting Coordination"));
+children.push(para(
+  "The Legal Department supports the Company\u2019s SEC reporting obligations in coordination with Finance, external " +
+  "auditors, and outside securities counsel. The Legal Department\u2019s responsibilities include:"
+));
+children.push(...bulletList([
+  "Reviewing and providing legal input on the Company\u2019s Annual Report on Form 10-K, including the legal proceedings disclosure (Item 3), risk factor updates (Item 1A), and legal contingency footnotes.",
+  "Reviewing and providing legal input on the Company\u2019s Quarterly Reports on Form 10-Q, including updates to legal proceedings and contingency disclosures.",
+  "Coordinating preparation and filing of Current Reports on Form 8-K for reportable events, including material definitive agreements, acquisitions and dispositions of assets, creation of direct financial obligations, changes in control, and departure or appointment of directors or principal officers.",
+  "Maintaining a log of potential 8-K triggering events and monitoring business activities across departments (including the Acquisitions Department, Finance, and Asset Management) to identify reportable events promptly.",
+  "Supporting the preparation and review of proxy statements, information statements, and other SEC filings as required.",
+  "Coordinating with outside securities counsel on Section 16 filings (Forms 3, 4, and 5) for directors, officers, and beneficial owners.",
+]));
+children.push(para(
+  "The Legal Department shall participate in the Company\u2019s disclosure committee (or equivalent review process) and " +
+  "shall maintain a SEC Reporting Calendar with all periodic filing deadlines, earnings release dates, and " +
+  "blackout periods."
+));
+
+children.push(subHeader("H. Governance and Compliance Calendars"));
+children.push(para(
+  "The Legal Department shall maintain two integrated calendars to track all recurring governance and compliance " +
+  "obligations: the Governance Calendar and the REIT Compliance Calendar. Both calendars shall be maintained in " +
+  "the Entity Management System with automated alerts and shall be reviewed at the quarterly Finance Coordination " +
+  "meeting described in Section 9."
+));
+children.push(para("**Governance Calendar.** The Governance Calendar shall include, at a minimum:"));
+children.push(...bulletList([
+  "Annual meeting dates (or deadlines for written consents in lieu of meetings) for all entities requiring annual governance actions",
+  "Board and committee meeting schedules and deliverable deadlines",
+  "Annual officer and manager appointment or reappointment deadlines",
+  "Annual conflict-of-interest questionnaire distribution and collection deadlines",
+  "Delegation of authority review and recirculation date",
+  "Authorized signatory list update and distribution date",
+  "Entity Records Attestation Report deadline (April 30)",
+  "Annual insurance renewal review coordination with Risk Management",
+  "SEC filing deadlines (10-K, 10-Q, 8-K, proxy materials) coordinated with Finance",
+]));
+children.push(para("**REIT Compliance Calendar.** The REIT Compliance Calendar shall include, at a minimum:"));
+children.push(emptyLine());
+children.push(simpleTable(
+  ["Item", "Frequency", "Responsible Parties", "Deadline / Timing"],
+  [
+    ["Asset Test Compliance Review (75%, 5%/10%, TRS 20%)", "Quarterly", "Finance + Legal + Tax Advisor",
+     "Within 30 days after quarter-end"],
+    ["Gross Income Test Review (75% and 95%)", "Quarterly", "Finance + Legal + Tax Advisor",
+     "Within 30 days after quarter-end"],
+    ["Distribution Requirement Calculation", "Annually", "Finance + Legal + Tax Advisor",
+     "Within 60 days after taxable year-end"],
+    ["100 Shareholder Test Verification", "Annually", "Finance + Transfer Agent",
+     "Prior to year-end (335-day count)"],
+    ["5/50 Ownership Concentration Test", "Semi-annually", "Finance + Transfer Agent",
+     "Last half of each taxable year"],
+    ["TRS Activity and Income Review", "Quarterly", "Finance + Legal + Tax Advisor",
+     "Within 30 days after quarter-end"],
+    ["Related-Party Rent Review (IRC 856(d))", "Quarterly", "Finance + Legal + Tax Advisor",
+     "Within 30 days after quarter-end"],
+    ["Impermissible Tenant Service Income Review", "Quarterly", "Finance + Legal + Asset Mgmt",
+     "Within 30 days after quarter-end"],
+    ["Prohibited Transaction Screen (IRC 857(b)(6))", "Per transaction", "Legal + Tax Advisor",
+     "Prior to closing of each disposition"],
+    ["Annual REIT Compliance Certification", "Annually", "General Counsel + CFO",
+     "Within 90 days after taxable year-end"],
+    ["State Filing Compliance Review", "Quarterly", "Legal + Registered Agent",
+     "15th day of month following quarter-end"],
+    ["Good Standing Certificate Collection", "Annually", "Legal + Registered Agent",
+     "No later than March 31"],
+  ],
+  [3000, 1500, 2200, 2660]
+));
+children.push(emptyLine());
+
+children.push(subHeader("I. Whistleblower and Internal Compliance Reporting"));
+children.push(para(
+  "The Company is committed to maintaining an environment in which employees, officers, contractors, and other " +
+  "stakeholders can report suspected violations of law, regulation, Company policy, or ethical standards without " +
+  "fear of retaliation. The Legal Department administers the following internal reporting mechanisms:"
+));
+children.push(para("**Reporting Channels.** Reports may be submitted through any of the following channels:"));
+children.push(...bulletList([
+  "Directly to the General Counsel or any attorney in the Legal Department, in person, by telephone, or by email",
+  "Through the Company\u2019s anonymous ethics and compliance hotline (telephone and web-based intake), which is operated by an independent third-party provider",
+  "In writing to the Chair of the Audit Committee of the Board (or applicable governing body), delivered via the Company\u2019s registered office address marked \u201CConfidential \u2013 Audit Committee\u201D",
+]));
+children.push(para("**Scope of Reportable Matters.** The following categories of concerns are reportable under this procedure:"));
+children.push(...bulletList([
+  "Suspected fraud, embezzlement, or financial irregularities",
+  "Violations of securities laws, REIT compliance requirements, or tax laws",
+  "Violations of the Company\u2019s Code of Business Conduct and Ethics",
+  "Suspected violations of environmental, health, or safety regulations",
+  "Suspected violations of Fair Housing laws, the Americans with Disabilities Act (\u201CADA\u201D), or other anti-discrimination laws applicable to the Company\u2019s properties and operations",
+  "Conflicts of interest or related-party transactions not properly disclosed",
+  "Retaliation against any person who has made a good-faith report under this procedure",
+]));
+children.push(para("**Investigation and Resolution.**"));
+children.push(...numberedList([
+  "All reports shall be logged by the Legal Department (or the third-party hotline provider) and assigned a tracking number within one (1) business day of receipt.",
+  "The General Counsel shall conduct an initial assessment within five (5) business days to determine the nature, severity, and appropriate scope of investigation.",
+  "Matters involving financial reporting, accounting fraud, or auditing concerns shall be referred to the Audit Committee or its designee.",
+  "The Legal Department shall oversee or coordinate the investigation, engaging outside counsel or forensic specialists as appropriate.",
+  "Upon completion of the investigation, the Legal Department shall prepare a written report of findings and recommended corrective actions.",
+  "The General Counsel shall report the status of all open and recently closed investigations to the Audit Committee (or applicable governing body) no less than quarterly.",
+]));
+children.push(para("**Non-Retaliation.**"));
+children.push(para(
+  "The Company prohibits retaliation against any individual who makes a good-faith report under this procedure or " +
+  "who participates in an investigation. Any employee found to have engaged in retaliation shall be subject to " +
+  "disciplinary action, up to and including termination. The Legal Department shall include non-retaliation " +
+  "protections in the Company\u2019s employee handbook and shall address whistleblower protections in annual compliance training."
 ));
 
 // ------ SECTION 8: CONFIDENTIALITY & INFORMATION HANDLING ------
 children.push(pageBreak());
 children.push(sectionHeader("8. Confidentiality & Information Handling"));
 children.push(para(
-  "The Legal Department handles sensitive and confidential information, including privileged communications, litigation materials, and proprietary business information. Proper handling of such information is critical to protecting the Company\u2019s legal position and maintaining confidentiality obligations."
+  "The Legal Department handles sensitive and confidential information, including privileged communications, " +
+  "litigation materials, proprietary business information, tenant personal information, and regulatory compliance " +
+  "records. Proper handling of such information is critical to protecting the Company\u2019s legal position, maintaining " +
+  "confidentiality obligations, and ensuring compliance with applicable privacy, fair housing, and anti-discrimination laws."
 ));
 
-children.push(subHeader("A. Confidential Information"));
-children.push(para("Confidential information includes, but is not limited to:"));
-children.push(...bulletList([
-  "Legal advice and attorney-client communications",
-  "Litigation strategy and work product",
-  "Tenant disputes and negotiations",
-  "Regulatory matters",
-  "Transaction-related information",
-]));
-
-children.push(subHeader("B. Attorney-Client Privilege"));
+children.push(subHeader("A. Document Classification Levels"));
 children.push(para(
-  "Communications involving the Legal Department that are intended to provide or request legal advice may be protected by attorney-client privilege."
+  "All documents and communications generated, received, or maintained by the Legal Department shall be classified " +
+  "according to one of the following four classification levels. The classification level determines the handling, " +
+  "storage, distribution, and disposal requirements applicable to the document."
 ));
-children.push(para("Employees should:"));
-children.push(...bulletList([
-  "Limit distribution of privileged communications",
-  "Avoid forwarding privileged emails outside the Company without Legal approval",
-  "Clearly label privileged communications where appropriate",
-]));
-children.push(para(
-  "Privileged communications should be labeled with the following header: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 ATTORNEY-CLIENT COMMUNICATION.\u201D The Department will periodically remind internal stakeholders of privilege preservation obligations through training and written guidance."
-));
-
-children.push(subHeader("C. Document Handling and Retention"));
-children.push(para(
-  "Legal documents should be stored in approved systems (e.g., SharePoint) and should not be stored locally or outside authorized platforms. Access to sensitive materials should be limited to individuals with a business need."
-));
-children.push(para("The Department maintains a document retention schedule, organized by category:"));
 children.push(emptyLine());
 children.push(simpleTable(
-  ["Document Category", "Retention Period", "Storage Location"],
+  ["Classification Level", "Definition", "Handling Requirements"],
   [
-    ["Executed Leases", "Life of lease + 7 years", "ShareFile"],
-    ["Lease Drafts and Negotiations", "Life of lease + 3 years", "SharePoint"],
-    ["Litigation Files", "Resolution + 7 years", "SharePoint / Outside Counsel"],
-    ["Corporate Governance Records", "Permanent", "SharePoint"],
-    ["Outside Counsel Invoices", "7 years", "SharePoint / Finance"],
-    ["General Correspondence", "3 years", "SharePoint"],
-    ["Regulatory Filings", "Permanent", "SharePoint"],
+    ["PRIVILEGED",
+     "Attorney-client privileged communications and attorney work product",
+     "Restricted to Legal Department and specifically authorized recipients; must bear privilege header; " +
+     "may not be forwarded outside the Company without General Counsel approval; stored in access-controlled " +
+     "folders within SharePoint with audit logging enabled"],
+    ["CONFIDENTIAL",
+     "Non-privileged information that is commercially sensitive, including transaction terms, tenant financial " +
+     "data, litigation settlement amounts, REIT compliance data, personnel matters, and whistleblower reports",
+     "Distribution limited to individuals with a documented business need; must bear \u201CCONFIDENTIAL\u201D marking; " +
+     "stored in access-controlled SharePoint folders; may not be transmitted to external parties without " +
+     "General Counsel or authorized officer approval"],
+    ["INTERNAL",
+     "Information intended for internal Company use that is not publicly available but does not rise to the " +
+     "level of Confidential, including internal policies, standard form agreements, and general legal updates",
+     "May be shared within the Company without restriction; stored in SharePoint; should not be shared " +
+     "externally without department-head approval"],
+    ["PUBLIC",
+     "Information that has been approved for public disclosure, including SEC filings, press releases, " +
+     "and publicly recorded documents",
+     "No distribution restrictions; stored in SharePoint and applicable public filing systems"],
   ],
-  [3120, 3120, 3120]
+  [2000, 3680, 3680]
 ));
 children.push(emptyLine());
-
-children.push(subHeader("D. Litigation Hold Procedures"));
 children.push(para(
-  "Upon identification of a matter that may result in litigation or regulatory investigation, the Department will implement a litigation hold to preserve all potentially relevant documents and communications."
+  "All Legal Department personnel are responsible for applying the appropriate classification level to documents " +
+  "and communications at the time of creation. When in doubt as to the proper classification, the document shall " +
+  "be treated as CONFIDENTIAL pending review by the General Counsel or a designated attorney."
 ));
-children.push(para("Litigation hold procedures include:"));
-children.push(...numberedList([
-  "The Department issues a written litigation hold notice to all relevant custodians, identifying the matter and the categories of documents to be preserved.",
-  "Custodians must acknowledge receipt of the hold notice in writing.",
-  "The Department coordinates with IT to suspend any automated deletion or archiving processes for documents within the scope of the hold.",
-  "The hold remains in effect until the Department issues a written release notice.",
-  "The Department maintains a log of all active and released litigation holds.",
+
+children.push(subHeader("B. Confidential Information"));
+children.push(para("Confidential information includes, but is not limited to:"));
+children.push(...bulletList([
+  "Legal advice and attorney-client communications (classified as PRIVILEGED)",
+  "Litigation strategy, work product, and settlement discussions",
+  "Tenant disputes, negotiations, and tenant financial information",
+  "Regulatory matters, governmental inquiries, and examination materials",
+  "Transaction-related information, including acquisition and disposition terms, due diligence materials, and financing documents",
+  "REIT compliance data, including asset test calculations, income test analyses, and distribution computations",
+  "Employee and personnel matters, including whistleblower reports and investigation files",
+  "Fair housing complaint files, ADA accommodation requests, and anti-discrimination investigation records",
+  "Tenant personal information, including financial statements, tax returns, and guarantor information submitted in connection with leasing",
 ]));
 
-children.push(subHeader("E. External Communications"));
-children.push(para("Only authorized personnel may communicate with:"));
+children.push(subHeader("C. Attorney-Client Privilege"));
+children.push(para(
+  "Communications involving the Legal Department that are intended to provide or request legal advice may be " +
+  "protected by attorney-client privilege. Preservation of attorney-client privilege is essential to the Company\u2019s " +
+  "ability to receive candid legal advice and to protect its legal positions."
+));
+children.push(para("All employees shall adhere to the following privilege preservation requirements:"));
 children.push(...bulletList([
-  "Outside counsel",
-  "Opposing counsel",
-  "Regulatory authorities",
+  "Limit distribution of privileged communications to only those individuals who have a need to receive the legal advice",
+  "Do not forward privileged emails to any person outside the Company, or to any person inside the Company who is not an intended recipient, without prior approval from the Legal Department",
+  "Do not copy or summarize privileged legal advice in non-privileged documents (e.g., board presentations, internal memoranda to non-legal personnel) without first consulting with the Legal Department",
+  "Clearly label all privileged communications with the required header at the top of the document or email",
+  "Do not discuss privileged legal advice in the presence of third parties, including consultants, vendors, or joint venture partners, unless the Legal Department has confirmed that a common-interest or joint-defense privilege applies",
 ]));
-children.push(para("All external legal communications should be coordinated through the Legal Department."));
+children.push(para(
+  "Privileged communications shall be labeled with the following header: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 " +
+  "ATTORNEY-CLIENT COMMUNICATION. This communication is protected by the attorney-client privilege and/or the " +
+  "work product doctrine. Do not forward, copy, or disclose without the prior authorization of the Legal Department.\u201D"
+));
+children.push(para(
+  "The Legal Department will conduct privilege preservation training for all employees no less than annually and " +
+  "will issue written guidance on privilege protocols to new employees as part of the onboarding process."
+));
+
+children.push(subHeader("D. Digital Communications and Information Security"));
+children.push(para(
+  "The following procedures apply to the handling of Privileged and Confidential information in digital " +
+  "communications, including email, instant messaging platforms, video conferencing, and cloud-based collaboration tools:"
+));
+children.push(...numberedList([
+  "**Email.** Privileged and Confidential information shall be transmitted via the Company\u2019s approved email system only. " +
+  "Employees shall not use personal email accounts to transmit or receive Privileged or Confidential information. " +
+  "Emails containing Privileged information must include the privilege header. Emails containing Confidential " +
+  "information must include \u201CCONFIDENTIAL\u201D in the subject line.",
+  "**Instant Messaging and Collaboration Platforms.** Privileged legal advice shall not be communicated via instant " +
+  "messaging platforms (e.g., Microsoft Teams chat, Slack) unless the platform has been approved by the Legal " +
+  "Department and IT for privileged communications and retains messages in accordance with the Company\u2019s retention " +
+  "policies. Confidential information may be shared on approved platforms only in channels with access restricted " +
+  "to authorized personnel.",
+  "**Video Conferencing.** When discussing Privileged or Confidential matters via video conference, participants shall " +
+  "verify attendee identity, use password-protected meetings, disable recording unless the Legal Department has " +
+  "approved recording for the specific meeting, and ensure that no unauthorized individuals are present in the " +
+  "physical meeting space.",
+  "**Cloud Storage and File Sharing.** Privileged and Confidential documents shall be stored only in approved, " +
+  "access-controlled repositories (SharePoint, ShareFile). Documents shall not be uploaded to personal cloud " +
+  "storage accounts (e.g., personal Dropbox, Google Drive) or shared via unapproved file-sharing services. " +
+  "Links to Confidential documents shall be set to expire and shall require Company credentials for access.",
+  "**Mobile Devices.** Employees who access Privileged or Confidential information on mobile devices must comply with " +
+  "the Company\u2019s mobile device management (\u201CMDM\u201D) policy, including device encryption, passcode requirements, and " +
+  "remote wipe capability.",
+]));
+
+children.push(subHeader("E. Document Handling and Storage"));
+children.push(para(
+  "All legal documents must be stored exclusively in approved systems (SharePoint or ShareFile, as designated by " +
+  "document type) and must not be stored on local hard drives, personal devices, or unauthorized cloud storage " +
+  "platforms. Access to sensitive materials must be restricted to individuals with a documented business need, " +
+  "and access permissions must be reviewed quarterly by the Legal Department."
+));
+children.push(para("The Department maintains the following document storage requirements:"));
+children.push(...bulletList([
+  "All privileged and litigation-related materials must be stored in a segregated SharePoint site collection " +
+  "(\u201CPrivileged Legal Site\u201D) with access restricted to Legal Department personnel, authorized executive " +
+  "leadership, and engaged outside counsel (see Section 8.5(H) for SharePoint segmentation requirements)",
+  "General legal files (non-privileged) are stored in the standard Legal Department SharePoint library with " +
+  "department-level access controls",
+  "Executed lease documents are stored in ShareFile with access limited to Legal and Asset Management personnel",
+  "No legal documents may be stored in personal email folders, desktop folders, USB drives, or personal cloud " +
+  "storage accounts (e.g., personal Dropbox, Google Drive, or iCloud)",
+]));
+children.push(para(
+  "Document retention periods and destruction procedures are governed by Section 8.5 of this Manual. All " +
+  "personnel must comply with applicable litigation holds, which supersede any retention schedule (see Section 8.5(C))."
+));
+
+children.push(subHeader("F. Fair Housing, ADA, and Anti-Discrimination Compliance"));
+children.push(para(
+  "The Company\u2019s properties and operations are subject to federal, state, and local fair housing, accessibility, " +
+  "and anti-discrimination laws, including without limitation the Fair Housing Act (42 U.S.C. \u00a7\u00a7 3601\u20133619), the " +
+  "Americans with Disabilities Act (\u201CADA\u201D) (42 U.S.C. \u00a7\u00a7 12101 et seq.), Section 504 of the Rehabilitation Act, " +
+  "and applicable state and local human rights laws. The Legal Department is responsible for the following:"
+));
+children.push(...bulletList([
+  "Advising Property Management and Asset Management on fair housing and ADA compliance obligations, including reasonable accommodation and reasonable modification procedures",
+  "Reviewing and approving the Company\u2019s fair housing and anti-discrimination policies, marketing materials, and tenant selection criteria to ensure compliance with applicable law",
+  "Coordinating the Company\u2019s response to fair housing complaints, HUD complaints, and state or local human rights commission inquiries",
+  "Maintaining a log of all fair housing and ADA complaints, requests for accommodation, and related investigations, classified as CONFIDENTIAL",
+  "Supporting the Company\u2019s ADA compliance program, including coordination with architects, engineers, and accessibility consultants on ADA surveys, barrier removal plans, and new construction or renovation accessibility requirements",
+  "Ensuring that all fair housing and ADA complaint records are retained in accordance with the retention schedule in Section 8.5(A) and are stored in access-restricted SharePoint folders",
+  "Including fair housing and anti-discrimination compliance topics in the annual Legal Department training program described in Section 11",
+]));
+
+children.push(subHeader("G. External Communications"));
+children.push(para("Only personnel authorized by the General Counsel may communicate on behalf of the Company with:"));
+children.push(...bulletList([
+  "Outside counsel engaged by the Company",
+  "Opposing counsel or adverse parties in any legal matter",
+  "Regulatory authorities, governmental agencies, and law enforcement",
+  "Fair housing agencies, human rights commissions, and the U.S. Department of Housing and Urban Development (\u201CHUD\u201D)",
+  "The SEC, state securities regulators, and stock exchange representatives",
+  "Media representatives regarding any legal matter or pending litigation",
+]));
+children.push(para(
+  "All external legal communications shall be coordinated through the Legal Department. No employee or officer " +
+  "shall respond to a subpoena, civil investigative demand, regulatory inquiry, or governmental request for " +
+  "information without first consulting the Legal Department. The Legal Department shall maintain a log of all " +
+  "material external legal communications."
+));
+
+// ------ SECTION 8.5: DOCUMENT RETENTION & LITIGATION HOLD PROCEDURES ------
+children.push(pageBreak());
+children.push(sectionHeader("8.5 Document Retention & Litigation Hold Procedures"));
+children.push(para(
+  "This section establishes the Company\u2019s comprehensive document retention schedule, litigation hold procedures, " +
+  "electronic records management requirements, and destruction protocols. These procedures are designed to ensure " +
+  "compliance with applicable legal and regulatory obligations, to preserve the Company\u2019s ability to defend its " +
+  "interests in litigation, and to protect against spoliation claims."
+));
+
+children.push(subHeader("A. Document Retention Schedule"));
+children.push(para(
+  "The following retention schedule applies to all Company records, regardless of format (paper, electronic, or " +
+  "other media). Retention periods are measured from the applicable trigger date specified below. Where multiple " +
+  "retention periods may apply to a single document, the longest applicable period governs. This schedule has " +
+  "been established in consideration of applicable statutes of limitation, regulatory requirements, and business " +
+  "needs, as identified in the Regulatory Basis column."
+));
+children.push(emptyLine());
+children.push(simpleTable(
+  ["Document Category", "Retention Period", "Trigger Date", "Regulatory Basis", "Storage Location"],
+  [
+    ["Executed Leases", "Life of lease + 7 years", "Lease expiration or termination",
+     "State statutes of limitation; IRS record requirements (26 CFR \u00a71.6001-1)", "ShareFile"],
+    ["Lease Drafts and Negotiation Files", "Until final version is executed, then destroy",
+     "Execution of final lease", "Privilege preservation; work product protection", "SharePoint (Privileged Legal Site)"],
+    ["Litigation Files", "Life of matter + 10 years", "Final resolution (judgment, settlement, or dismissal)",
+     "State statutes of limitation for malpractice; insurance policy requirements", "SharePoint (Privileged Legal Site)"],
+    ["Corporate Governance Records (formation documents, bylaws, operating agreements, resolutions)",
+     "Permanent", "N/A", "State corporate/LLC statutes; IRS requirements", "SharePoint"],
+    ["Board Minutes and Consents", "Permanent", "N/A",
+     "State corporate governance requirements; fiduciary obligations", "SharePoint"],
+    ["Tax Records and Returns", "7 years", "Date of filing or payment, whichever is later",
+     "26 U.S.C. \u00a76501 (IRS statute of limitations); state equivalents", "SharePoint / Finance"],
+    ["Outside Counsel Invoices", "7 years", "Date of payment",
+     "IRS record requirements; audit support", "SharePoint / Finance"],
+    ["General Business Correspondence", "5 years", "Date of correspondence",
+     "Business records retention best practices", "SharePoint"],
+    ["Email Communications", "5 years", "Date of email",
+     "Business records retention; ESI management obligations", "Exchange / Archive System"],
+    ["Microsoft Teams Messages and Channels", "3 years", "Date of message",
+     "ESI management; informal communications preservation obligations", "Teams Compliance Archive"],
+    ["Slack Messages (if applicable)", "3 years", "Date of message",
+     "ESI management; informal communications preservation obligations", "Slack Enterprise Archive"],
+    ["Text Messages (SMS/iMessage) \u2013 Business-Related", "3 years", "Date of message",
+     "ESI management; BYOD policy compliance", "Mobile Archive Solution"],
+    ["Voicemail Recordings \u2013 Business-Related", "1 year", "Date of recording",
+     "Business records retention", "Voicemail Archive"],
+    ["Regulatory Filings", "Permanent", "N/A",
+     "Regulatory compliance requirements", "SharePoint"],
+    ["REIT Compliance Records", "Permanent", "N/A",
+     "IRC \u00a7856 et seq.; state REIT statutes", "SharePoint"],
+    ["SEC Filings and Support", "Permanent", "N/A",
+     "Securities Exchange Act of 1934; SEC rules", "SharePoint"],
+    ["Insurance Policies and Certificates", "Life of policy + 10 years", "Policy expiration",
+     "Long-tail liability coverage; occurrence-based claims", "SharePoint"],
+    ["Environmental Records and Assessments", "Permanent", "N/A",
+     "CERCLA; state environmental statutes (no statute of limitations for some claims)", "SharePoint"],
+    ["Employment Records", "Termination + 7 years", "Date of termination",
+     "Title VII (EEOC); ADEA; state employment laws", "HR System / SharePoint"],
+    ["Fair Housing / ADA Complaint Files", "Resolution + 7 years", "Date of final resolution",
+     "Fair Housing Act; ADA; state human rights laws", "SharePoint (restricted access)"],
+    ["Whistleblower Reports and Investigation Files", "Resolution + 7 years", "Date of final resolution",
+     "SOX (if applicable); state whistleblower statutes", "SharePoint (restricted access)"],
+    ["Contracts (non-lease)", "Expiration + 7 years", "Contract expiration or termination",
+     "State statutes of limitation for contract claims", "SharePoint"],
+    ["Real Property Records (deeds, title policies, surveys)", "Permanent", "N/A",
+     "Real property law; title defense", "SharePoint / Physical Vault"],
+    ["Financial Statements and Audit Reports", "Permanent", "N/A",
+     "SEC requirements (if applicable); lender covenants; investor obligations", "Finance System / SharePoint"],
+    ["Incident Reports and Safety Records", "Event + 7 years", "Date of incident",
+     "OSHA requirements; state workers\u2019 compensation statutes", "SharePoint / Property Mgmt"],
+    ["Entity Formation and Qualification Documents", "Life of entity + 7 years", "Entity dissolution or withdrawal",
+     "State corporate/LLC statutes", "Entity Mgmt System / SharePoint"],
+  ],
+  [1800, 1400, 1400, 2160, 1200]
+));
+children.push(emptyLine());
+children.push(para(
+  "Records not specifically listed above must be retained for a minimum of five (5) years from the date of " +
+  "creation unless a shorter or longer period is required by applicable law or regulation. The General Counsel " +
+  "must approve the retention period for any unlisted record category, and such approval must be documented in writing."
+));
+
+children.push(subHeader("B. Electronic Records Management"));
+children.push(para(
+  "The Company generates and receives electronic records across multiple platforms. The following requirements " +
+  "apply to the management of all electronically stored information (\u201CESI\u201D):"
+));
+children.push(...bulletList([
+  "**Email.** All business email is retained in the Company\u2019s email archiving system for the retention period " +
+  "specified in Section 8.5(A). Employees must not delete emails from the archive system. Personal email accounts " +
+  "must not be used for Company business.",
+  "**Microsoft Teams.** All Teams messages, including direct messages and channel conversations, are captured by the " +
+  "Company\u2019s compliance archiving solution and retained per the schedule in Section 8.5(A). Employees must not use " +
+  "personal messaging applications for Company business communications.",
+  "**Text Messages (SMS/iMessage).** Business-related text messages must be captured using the Company\u2019s approved " +
+  "mobile archiving solution. Employees who use personal devices for Company business must enroll in the Company\u2019s " +
+  "mobile device management (MDM) program or approved archiving application.",
+  "**Cloud Storage.** Company documents must be stored only in approved cloud platforms (SharePoint, ShareFile). " +
+  "Use of personal cloud storage (Dropbox, Google Drive, iCloud, OneDrive personal) for Company business is prohibited.",
+  "**Voicemail.** Business voicemails are retained per the schedule in Section 8.5(A). The IT Department is responsible " +
+  "for configuring voicemail retention settings in accordance with this policy.",
+]));
+children.push(para(
+  "The Legal Department, in coordination with IT, must conduct an annual audit of electronic records management " +
+  "compliance to verify that archiving systems are functioning as required and that retention settings are properly " +
+  "configured. Audit results must be documented and retained."
+));
+
+children.push(subHeader("C. Litigation Hold Procedures"));
+children.push(para(
+  "Upon identification of a matter that reasonably may result in litigation, arbitration, governmental investigation, " +
+  "or regulatory inquiry, the Legal Department must implement a litigation hold to preserve all potentially relevant " +
+  "documents, communications, and ESI. A litigation hold supersedes all retention schedules and destruction protocols " +
+  "set forth in this Manual. Failure to implement and enforce a litigation hold may result in spoliation sanctions, " +
+  "adverse inferences, and other court-imposed penalties."
+));
+
+children.push(para("**C.1. First 48 Hours \u2014 Litigation Response Checklist.** Upon identification of a litigation " +
+  "trigger event, the following actions must be completed within forty-eight (48) hours:"));
+children.push(...numberedList([
+  "The General Counsel (or designee) identifies all potentially relevant custodians, data sources, and document repositories.",
+  "The General Counsel (or designee) drafts and issues a written Litigation Hold Notice to all identified custodians, " +
+  "specifying: (a) the matter giving rise to the hold; (b) the categories of documents and ESI to be preserved; " +
+  "(c) the custodian\u2019s obligation to preserve all potentially relevant materials, including materials on personal " +
+  "devices and in personal cloud storage; and (d) the prohibition on destruction, alteration, or deletion of any " +
+  "potentially relevant materials.",
+  "The Legal Department submits a Litigation Hold \u2013 IT Coordination Form (see Section 8.5(F)) to the IT Department, " +
+  "requesting suspension of all automated deletion, archiving, or overwrite processes for data within the scope of the hold.",
+  "The Legal Department notifies engaged outside counsel (if any) of the hold and coordinates on preservation scope.",
+  "The General Counsel notifies executive leadership as required by Section 9 (Communication & Escalation Protocols).",
+  "The Legal Department opens an entry in the Litigation Hold Log (see Section 8.5(G)), recording: hold identification " +
+  "number, matter name, date of issuance, custodian list, and scope of preservation.",
+], "numbers2"));
+
+children.push(para("**C.2. Custodian Acknowledgment.** Each custodian who receives a Litigation Hold Notice must " +
+  "acknowledge receipt in writing (email acknowledgment is sufficient) within seventy-two (72) hours of issuance. " +
+  "The acknowledgment must confirm that the custodian:"));
+children.push(...bulletList([
+  "Has received and read the Litigation Hold Notice",
+  "Understands the obligation to preserve all potentially relevant materials",
+  "Has identified and is preserving all potentially relevant materials in the custodian\u2019s possession, custody, or " +
+  "control, including materials on personal devices and in personal cloud storage accounts",
+  "Will not destroy, delete, alter, or modify any potentially relevant materials",
+]));
+
+children.push(para("**C.3. Escalation for Non-Acknowledgment.** If a custodian does not acknowledge the Litigation " +
+  "Hold Notice within seventy-two (72) hours, the following escalation procedure applies:"));
+children.push(...numberedList([
+  "The Legal Department issues a second written notice to the custodian, copying the custodian\u2019s direct supervisor, " +
+  "reiterating the preservation obligation and requesting immediate acknowledgment.",
+  "If no acknowledgment is received within an additional forty-eight (48) hours, the Legal Department escalates to " +
+  "the custodian\u2019s department head and Human Resources, requesting direct intervention to obtain compliance.",
+  "If the custodian remains non-responsive, the General Counsel directs IT to implement technical preservation " +
+  "measures (e.g., imaging the custodian\u2019s devices, placing a hold on the custodian\u2019s email account) and documents " +
+  "the non-compliance for potential disciplinary action.",
+  "All escalation actions and dates must be recorded in the Litigation Hold Log.",
+], "numbers2"));
+
+children.push(para("**C.4. Quarterly Re-Certification.** For all active litigation holds, the Legal Department " +
+  "must conduct a quarterly re-certification process:"));
+children.push(...bulletList([
+  "The Legal Department issues a Re-Certification Notice to all custodians subject to each active hold, reminding " +
+  "them of their ongoing preservation obligations and requesting written confirmation of continued compliance.",
+  "Custodians must respond to the Re-Certification Notice within fourteen (14) calendar days.",
+  "The Legal Department reviews all re-certification responses and documents compliance status in the Litigation Hold Log.",
+  "Non-responsive custodians are subject to the escalation procedures set forth in Section 8.5(C.3) above.",
+  "The General Counsel reviews the re-certification results and documents any changes to the hold scope, custodian " +
+  "list, or preservation requirements.",
+]));
+
+children.push(para("**C.5. Scope of Preservation \u2014 Personal Devices and Cloud Storage.** Litigation holds must " +
+  "encompass all potentially relevant materials regardless of storage location, including:"));
+children.push(...bulletList([
+  "All documents and ESI stored on Company systems (email, SharePoint, ShareFile, shared drives, Teams, Slack)",
+  "All documents and ESI stored on Company-issued devices (laptops, desktops, tablets, mobile phones)",
+  "All business-related documents and ESI stored on personal devices used for Company business, including text " +
+  "messages, voicemails, and messaging application content",
+  "All documents and ESI stored in personal cloud storage accounts if used for Company business",
+  "All hard-copy documents in the custodian\u2019s possession or control",
+  "All backup tapes, disaster recovery media, and archived data within the scope of the hold",
+]));
+
+children.push(para("**C.6. Integration with Retention Schedule.** An active litigation hold supersedes all retention " +
+  "schedule provisions for documents within the scope of the hold. No documents subject to an active litigation hold " +
+  "may be destroyed, deleted, or altered, regardless of whether the applicable retention period has expired. The Legal " +
+  "Department must cross-reference the Litigation Hold Log against the retention schedule before authorizing any " +
+  "document destruction under Section 8.5(D)."));
+
+children.push(subHeader("D. Hold Release and Document Destruction"));
+children.push(para("**D.1. Hold Release.** A litigation hold may be released only upon written authorization of the " +
+  "General Counsel, following confirmation that:"));
+children.push(...bulletList([
+  "The underlying matter has been fully resolved (by final judgment, settlement, regulatory closure, or other disposition)",
+  "All applicable appeal periods have expired",
+  "Outside counsel (if engaged) has confirmed that preservation is no longer required",
+  "The release has been documented in the Litigation Hold Log with the date of release and the authorizing attorney",
+]));
+children.push(para(
+  "Upon release of a hold, the Legal Department issues a written Hold Release Notice to all custodians, confirming " +
+  "that the preservation obligation has ended and that normal retention schedules resume for the previously held materials."
+));
+
+children.push(para("**D.2. Document Destruction Procedures.** Documents that have reached the end of their applicable " +
+  "retention period (and are not subject to any active litigation hold) must be destroyed in accordance with the " +
+  "following procedures:"));
+children.push(...numberedList([
+  "The Legal Department prepares a Destruction Authorization Memorandum listing all documents proposed for " +
+  "destruction, organized by category, retention period, and storage location.",
+  "The General Counsel reviews the proposed destruction list and cross-references it against the Litigation Hold Log " +
+  "and any pending or reasonably anticipated litigation, investigation, or regulatory inquiry.",
+  "Upon approval, the General Counsel signs the Destruction Authorization Memorandum.",
+  "For electronic records: IT executes permanent deletion from all systems, including backups and archives, and " +
+  "provides written confirmation of completion.",
+  "For physical records: an approved shredding vendor destroys the documents and provides a Certificate of " +
+  "Destruction specifying the date, method of destruction, and categories of documents destroyed.",
+  "The Legal Department retains the Destruction Authorization Memorandum and all Certificates of Destruction " +
+  "permanently as evidence of compliant disposal.",
+], "numbers2"));
+
+children.push(subHeader("E. Privacy and Data Protection"));
+children.push(para(
+  "The Company\u2019s document retention and destruction practices must comply with all applicable federal, state, and " +
+  "local privacy and data protection laws, including but not limited to:"
+));
+children.push(...bulletList([
+  "California Consumer Privacy Act (CCPA), Cal. Civ. Code \u00a7\u00a71798.100 et seq., and the California Privacy Rights " +
+  "Act (CPRA), to the extent the Company processes personal information of California residents",
+  "State data breach notification laws applicable in jurisdictions where the Company operates or holds real property",
+  "State data disposal laws requiring secure destruction of records containing personal information",
+  "Health Insurance Portability and Accountability Act (HIPAA), to the extent the Company holds protected health " +
+  "information in connection with employee benefits or tenant health-related accommodations",
+  "Fair Credit Reporting Act (FCRA), to the extent the Company obtains consumer reports in connection with tenant " +
+  "screening or employment",
+]));
+children.push(para(
+  "Before destroying any records containing personally identifiable information (\u201CPII\u201D), the Legal Department must " +
+  "confirm that destruction complies with applicable data disposal requirements and that no pending data subject " +
+  "access request or regulatory inquiry requires retention. The General Counsel is responsible for monitoring " +
+  "changes in applicable privacy and data protection laws and updating this section as necessary."
+));
+
+children.push(subHeader("F. Legal-to-IT Litigation Hold Coordination"));
+children.push(para(
+  "All litigation hold implementation and release actions requiring IT support must be submitted via the Litigation " +
+  "Hold \u2013 IT Coordination Form. The following procedures govern the Legal-to-IT coordination process:"
+));
+children.push(...bulletList([
+  "**Submission.** The Legal Department submits the Litigation Hold \u2013 IT Coordination Form to the IT Department via " +
+  "the Company\u2019s IT ticketing system (or, if the ticketing system is unavailable, via email to the IT Director with " +
+  "the General Counsel copied). The form must specify: (a) hold identification number; (b) matter name; (c) custodian " +
+  "list; (d) data sources and systems to be preserved; (e) requested preservation actions (e.g., suspend auto-delete, " +
+  "image device, export mailbox); and (f) priority level (Standard or Urgent).",
+  "**Service Level Agreement.** IT must acknowledge receipt of the form within four (4) business hours. IT must " +
+  "complete all requested preservation actions within twenty-four (24) hours of acknowledgment for Urgent requests " +
+  "and within forty-eight (48) hours for Standard requests.",
+  "**Confirmation.** Upon completion, IT must provide written confirmation to the Legal Department specifying the " +
+  "actions taken, the systems affected, and the date and time of implementation.",
+  "**Escalation for Missed SLAs.** If IT does not acknowledge or complete the requested actions within the applicable " +
+  "SLA, the Legal Department must escalate as follows: (a) first, to the IT Director; (b) if unresolved within an " +
+  "additional four (4) business hours, to the CFO (or the executive to whom IT reports); (c) all escalation actions " +
+  "and dates must be documented in the Litigation Hold Log.",
+  "**Consequence for SLA Non-Compliance.** Repeated or material failures by IT to meet litigation hold SLAs will be " +
+  "reported to executive leadership and addressed through the Company\u2019s performance management process. The General " +
+  "Counsel will include IT litigation hold compliance metrics in the quarterly Legal Department report to executive leadership.",
+]));
+
+children.push(subHeader("G. Litigation Hold Audit Trail"));
+children.push(para(
+  "The Legal Department must maintain a comprehensive Litigation Hold Log that serves as the audit trail for all " +
+  "hold-related activity. The log must be maintained in a secure, access-restricted location within the Privileged " +
+  "Legal Site. The log must contain, at a minimum, the following information for each hold:"
+));
+children.push(...bulletList([
+  "Hold identification number",
+  "Matter name and case number (if applicable)",
+  "Date of hold issuance",
+  "Custodian list (with dates of notice and acknowledgment for each custodian)",
+  "Scope of preservation (document categories, data sources, systems)",
+  "IT Coordination Form submission date and IT completion confirmation date",
+  "Quarterly re-certification dates and compliance status for each custodian",
+  "Any escalation actions taken and dates thereof",
+  "Date of hold release (if applicable) and authorizing attorney",
+  "Cross-reference to the underlying matter in the Legal Risk Tracker (Section 10)",
+]));
+
+children.push(subHeader("H. SharePoint Segmentation for Privileged Materials"));
+children.push(para(
+  "All privileged, litigation-related, and attorney work product materials must be stored in a segregated SharePoint " +
+  "site collection (\u201CPrivileged Legal Site\u201D) that is separate from the Company\u2019s general SharePoint environment. " +
+  "The following access controls must be maintained:"
+));
+children.push(...bulletList([
+  "Access to the Privileged Legal Site is restricted to: Legal Department personnel, the General Counsel, and " +
+  "specifically authorized executive leadership (CEO, CFO) on a documented need-to-know basis",
+  "Outside counsel access must be limited to matter-specific document libraries within the Privileged Legal Site, " +
+  "with time-limited permissions that expire upon matter conclusion or outside counsel disengagement (see Section 8.5(I))",
+  "IT administrators who require access for system maintenance purposes must execute a confidentiality acknowledgment " +
+  "and must access the site only upon written request from the General Counsel",
+  "Access permissions must be reviewed by the Legal Department quarterly and updated to remove any individuals who " +
+  "no longer require access",
+  "The Privileged Legal Site must be excluded from Company-wide SharePoint search indexes to prevent inadvertent " +
+  "disclosure of privileged materials",
+  "All documents stored in the Privileged Legal Site must bear the privilege designation specified in Section 8(C)",
+]));
+
+children.push(subHeader("I. Outside Counsel Access Controls"));
+children.push(para(
+  "Outside counsel engaged on Company matters may be granted access to relevant documents stored in the Privileged " +
+  "Legal Site, subject to the following controls:"
+));
+children.push(...bulletList([
+  "Access must be limited to the specific matter-level document library for the engagement and must not extend to " +
+  "other matter libraries or the broader Privileged Legal Site",
+  "Access permissions must be requested by the responsible Legal Department attorney and approved by the General Counsel",
+  "Permissions must include an expiration date not to exceed the expected duration of the engagement plus thirty (30) " +
+  "calendar days",
+  "Upon conclusion of the engagement or termination of the outside counsel relationship, all access must be revoked " +
+  "within five (5) business days",
+  "The Legal Department must maintain a log of all outside counsel access grants and revocations as part of the " +
+  "Privileged Legal Site administration records",
+  "Outside counsel must not download, copy, or transfer Company documents to outside counsel\u2019s own systems without " +
+  "prior written authorization from the General Counsel",
+]));
 
 // ------ SECTION 9: COMMUNICATION & ESCALATION PROTOCOLS ------
 children.push(pageBreak());
 children.push(sectionHeader("9. Communication & Escalation Protocols"));
 children.push(para(
-  "Clear communication and timely escalation are essential to effective legal risk management. This section defines when and how matters should be escalated to the Legal Department and executive leadership."
+  "Effective legal risk management requires clear communication channels and timely escalation of matters that may " +
+  "affect the Company\u2019s legal, financial, or operational interests. This section establishes when and how matters " +
+  "must be communicated to and escalated within the Legal Department and to executive leadership. All timelines in " +
+  "this section are intended as guidelines to promote prompt action; the overriding obligation is to communicate " +
+  "and escalate as soon as practicable under the circumstances."
 ));
 
-children.push(subHeader("A. Routine Communication"));
-children.push(para("The Legal Department works collaboratively with:"));
+children.push(subHeader("A. Routine Communication and Interdepartmental Coordination"));
+children.push(para("The Legal Department works collaboratively with the following departments on an ongoing basis:"));
 children.push(...bulletList([
-  "Asset Management (leasing and tenant matters)",
-  "Property Management (operational issues and incidents)",
-  "Finance (reserves, transactions, governance)",
+  "**Asset Management:** Leasing activity, tenant matters, lease administration, and portfolio transactions",
+  "**Property Management:** Operational incidents, property-level disputes, insurance claims, and vendor matters",
+  "**Finance:** Legal reserves, legal spend management, transaction support, and corporate governance filings",
+  "**Human Resources:** Employment matters, workplace incidents, and benefits-related legal issues",
 ]));
-children.push(para("Standing interdepartmental meetings should be held at the following cadence:"));
+children.push(para("Standing interdepartmental meetings must be held at the following cadence:"));
 children.push(emptyLine());
 children.push(simpleTable(
-  ["Meeting", "Participants", "Frequency", "Purpose"],
+  ["Meeting", "Participants", "Frequency", "Trigger for Ad Hoc Session", "Purpose"],
   [
-    ["Leasing Pipeline Review", "Legal + Asset Mgmt", "Weekly", "Review pending lease requests, priority alignment"],
-    ["Litigation/Risk Update", "Legal + Executive Leadership", "Bi-weekly", "Active matters, exposure, strategic decisions"],
-    ["Finance Coordination", "Legal + Finance/CFO", "Monthly", "Reserves, legal spend, governance filings"],
-    ["Property Operations Sync", "Legal + Property Mgmt", "As needed", "Incidents, insurance claims, vendor disputes"],
+    ["Leasing Pipeline Review", "Legal + Asset Mgmt", "Weekly (scheduled)",
+     "New lease request exceeding $[X] annual rent; lease dispute notice",
+     "Review pending lease requests, priority alignment, negotiation strategy"],
+    ["Litigation/Risk Update", "Legal + Executive Leadership", "Bi-weekly (scheduled)",
+     "New litigation filed; matter exceeding Significant risk threshold",
+     "Active matters, exposure updates, strategic decisions"],
+    ["Finance Coordination", "Legal + Finance/CFO", "Monthly (scheduled)",
+     "Reserve adjustment exceeding $100K; new insurance claim exceeding $50K",
+     "Reserve reconciliation, legal spend review, governance filings"],
+    ["Property Operations Sync", "Legal + Property Mgmt", "Monthly (scheduled)",
+     "Any workplace injury requiring medical treatment; property damage exceeding $25K; governmental inspection or citation",
+     "Incidents, insurance claims, vendor disputes, regulatory matters"],
+    ["HR Legal Coordination", "Legal + Human Resources", "Quarterly (scheduled)",
+     "Employment claim filed; termination of employee with access to privileged information",
+     "Employment matters, workplace investigations, policy updates"],
   ],
-  [2000, 2000, 1680, 3680]
+  [1560, 1560, 1400, 2340, 2500]
 ));
 children.push(emptyLine());
+children.push(para(
+  "Meeting minutes must be prepared for each standing meeting and distributed to attendees within five (5) business " +
+  "days. Minutes for meetings involving legal strategy or privileged matters must be marked \u201CPRIVILEGED AND " +
+  "CONFIDENTIAL \u2013 ATTORNEY-CLIENT COMMUNICATION\u201D and stored in the Privileged Legal Site."
+));
 
 children.push(subHeader("B. Escalation Criteria"));
-children.push(para("Matters must be escalated to the Legal Department when they involve:"));
+children.push(para("Matters must be escalated to the Legal Department promptly when they involve any of the following:"));
 children.push(...bulletList([
-  "Potential or actual litigation",
-  "Tenant bankruptcy or insolvency",
-  "Material financial exposure",
-  "Regulatory or governmental inquiries",
-  "Significant personal injury or property damage",
-  "Disputes that may impact Company rights or obligations",
+  "Potential or actual litigation, arbitration, or mediation",
+  "Receipt of a demand letter, cease and desist notice, or threat of legal action",
+  "Tenant bankruptcy or insolvency, or assignment for the benefit of creditors",
+  "Actual or potential financial exposure exceeding $50,000",
+  "Regulatory or governmental inquiry, investigation, subpoena, or audit",
+  "Significant personal injury or death on Company property",
+  "Property damage exceeding $25,000 or damage affecting structural integrity or habitability",
+  "Disputes that may affect the Company\u2019s rights, obligations, or interests under material contracts",
+  "Potential or actual breach of confidentiality, privilege waiver, or data security incident",
+  "Environmental contamination or hazardous materials incident",
+  "Insurance coverage disputes or denial of coverage",
+  "Media inquiries or public relations matters involving legal issues",
 ]));
 
-children.push(subHeader("C. Escalation Timelines"));
-children.push(para("The following escalation timelines apply:"));
+children.push(subHeader("C. Escalation Timelines and Response Actions"));
+children.push(para(
+  "The following table sets forth escalation timelines, responsible parties, and required response actions. All " +
+  "timelines represent the outer boundary for escalation; the overriding standard is to escalate as soon as " +
+  "practicable under the circumstances."
+));
 children.push(emptyLine());
 children.push(simpleTable(
-  ["Event Type", "Escalation Timeline", "Escalate To"],
+  ["Event Type", "Escalation Timeline", "Escalate To", "Required Response Actions"],
   [
-    ["Receipt of lawsuit or demand letter", "Immediately (same business day)", "General Counsel"],
-    ["Regulatory inquiry or subpoena", "Immediately (same business day)", "General Counsel + CEO"],
-    ["Tenant bankruptcy filing", "Within 24 hours", "General Counsel + Asset Mgmt Lead"],
-    ["Significant personal injury on property", "Immediately", "General Counsel + Property Mgmt Lead"],
-    ["Material financial exposure (> $250,000)", "Within 24 hours", "General Counsel + CFO"],
-    ["Potential privilege waiver or breach", "Immediately", "General Counsel"],
-    ["Insurance coverage dispute", "Within 48 hours", "General Counsel + Asset Mgmt Lead"],
+    ["Receipt of lawsuit, complaint, or petition",
+     "Promptly, and no later than the same business day", "General Counsel",
+     "GC reviews filing; identifies response deadline; engages outside counsel if warranted; initiates litigation " +
+     "hold per Section 8.5(C); notifies insurance carrier if applicable"],
+    ["Receipt of demand letter or threat of litigation",
+     "Promptly, and no later than the same business day", "General Counsel",
+     "GC evaluates merit and exposure; prepares preliminary assessment; determines whether to engage outside counsel; " +
+     "initiates litigation hold if preservation warranted"],
+    ["Regulatory inquiry, subpoena, or governmental investigation",
+     "Promptly, and no later than the same business day", "General Counsel + CEO",
+     "GC reviews scope; identifies response deadline and custodians; initiates litigation hold; engages regulatory " +
+     "counsel if warranted; prepares board notification if material"],
+    ["Tenant bankruptcy filing",
+     "As soon as practicable, and no later than the next business day", "General Counsel + Asset Mgmt Lead",
+     "GC reviews petition; identifies deadlines for proofs of claim and motions for relief; coordinates with Asset " +
+     "Mgmt on lease status and arrears; engages bankruptcy counsel if warranted"],
+    ["Significant personal injury or death on property",
+     "Immediately upon learning of the event", "General Counsel + Property Mgmt Lead",
+     "GC initiates investigation coordination; directs scene preservation; notifies insurance carrier; initiates " +
+     "litigation hold; engages outside counsel if warranted"],
+    ["Potential financial exposure exceeding $500K",
+     "As soon as practicable, and no later than the next business day", "General Counsel + CFO",
+     "GC prepares preliminary exposure assessment; coordinates reserve adjustment with Finance; evaluates insurance " +
+     "coverage applicability; determines board notification requirement"],
+    ["Potential or actual privilege waiver",
+     "Immediately upon discovery", "General Counsel",
+     "GC evaluates scope of potential waiver; implements remedial measures (clawback demand if applicable); documents " +
+     "circumstances; determines whether FRE 502(d) order or similar protection is available"],
+    ["Insurance coverage dispute or denial",
+     "As soon as practicable, and no later than two (2) business days", "General Counsel + CFO",
+     "GC reviews coverage position; prepares response to carrier; evaluates coverage counsel engagement; updates net " +
+     "exposure assessment"],
+    ["Data security incident or breach",
+     "Immediately upon discovery", "General Counsel + CEO + IT Director",
+     "GC evaluates notification obligations under applicable state breach notification laws; coordinates forensic " +
+     "investigation with IT; initiates litigation hold if warranted; engages privacy counsel if applicable"],
+    ["Environmental contamination or hazardous materials event",
+     "Immediately upon discovery", "General Counsel + Property Mgmt Lead + CEO",
+     "GC evaluates regulatory reporting obligations; coordinates with environmental counsel; initiates litigation " +
+     "hold; notifies insurance carrier"],
   ],
-  [3120, 3120, 3120]
+  [1800, 1560, 1800, 4200]
 ));
 children.push(emptyLine());
 
-children.push(subHeader("D. Executive Escalation"));
-children.push(para("The Legal Department escalates matters to executive leadership when they involve:"));
+children.push(subHeader("D. Escalation Flowchart"));
+children.push(para("The following escalation sequence governs the order of notification for matters requiring escalation:"));
+children.push(...numberedList([
+  "**Originating Department Contact** identifies the event and immediately notifies the **Legal Department** (General " +
+  "Counsel or, if unavailable, the next senior Legal Department attorney).",
+  "**General Counsel** evaluates the matter and determines the appropriate response actions and additional notifications.",
+  "If the matter involves potential financial exposure exceeding $500,000, reputational risk, portfolio-wide " +
+  "implications, or regulatory action, the General Counsel promptly notifies the **CEO**.",
+  "If the matter involves financial exposure or reserve implications, the General Counsel promptly notifies the **CFO**.",
+  "If the matter meets the threshold for board notification (see Section 10(G)), the General Counsel prepares a " +
+  "board notification memorandum for the CEO\u2019s review and transmittal.",
+  "If the General Counsel is unavailable, the originating contact must notify the **CEO** directly, who will " +
+  "coordinate the legal response.",
+], "numbers2"));
+
+children.push(subHeader("E. Executive Escalation Memoranda"));
+children.push(para("When escalation to executive leadership is required, the Legal Department must prepare a written " +
+  "escalation memorandum containing:"));
 children.push(...bulletList([
-  "Significant financial exposure",
-  "Reputational risk",
-  "Portfolio-wide implications",
-  "Strategic business impact",
+  "Matter identification and date of escalation",
+  "Summary of facts known to date",
+  "Preliminary evaluation of legal exposure and risk (framed as a preliminary assessment subject to change as " +
+  "additional facts become available)",
+  "Identification of applicable insurance coverage and estimated net exposure (gross exposure less reasonably " +
+  "anticipated insurance recovery)",
+  "Recommended course of action and next steps",
+  "Applicable deadlines (court deadlines, regulatory response dates, statute of limitations dates)",
+  "Outside counsel engagement status and recommendations",
 ]));
 children.push(para(
-  "Executive escalation should include a written summary of the matter, current status, recommended course of action, and estimated financial impact. The Department will prepare escalation memoranda using a standardized format to ensure consistency."
+  "Escalation memoranda must be marked \u201CPRIVILEGED AND CONFIDENTIAL \u2013 ATTORNEY-CLIENT COMMUNICATION\u201D and must be " +
+  "stored in the Privileged Legal Site. Distribution must be limited to the individuals identified in the escalation " +
+  "table above."
 ));
 
-children.push(subHeader("E. Legal Updates and Reporting"));
-children.push(para("The Legal Department provides periodic updates to executive leadership, including:"));
+children.push(subHeader("F. Consequence Framework for Missed Escalations"));
+children.push(para(
+  "Timely escalation is essential to the Company\u2019s ability to protect its legal interests. The Legal Department " +
+  "will monitor escalation compliance and address deficiencies as follows:"
+));
 children.push(...bulletList([
-  "Status of significant matters",
-  "Litigation exposure",
-  "Key risks and developments",
+  "The Legal Department will include escalation compliance as a standing item in its quarterly report to executive " +
+  "leadership, identifying any instances where escalation timelines were not met and the remedial actions taken",
+  "Escalation failures that result in actual or potential prejudice to the Company\u2019s legal position (e.g., missed " +
+  "filing deadlines, loss of preservation evidence, waiver of rights) will be reported to the CEO and, where " +
+  "applicable, to the Board",
+  "Department heads are responsible for ensuring that their personnel understand and comply with escalation " +
+  "requirements; repeated failures may be addressed through the Company\u2019s performance management process",
+  "The Legal Department will conduct annual escalation protocol training for all departments to reinforce " +
+  "compliance (see Section 11(A))",
 ]));
-children.push(para("The Legal Risk Tracker and Legal Risk Dashboard (see Section 10 and Attachment B) are used as primary tools for these updates."));
+
+children.push(subHeader("G. Legal Updates and Reporting"));
+children.push(para("The Legal Department provides periodic updates to executive leadership through the following mechanisms:"));
+children.push(...bulletList([
+  "**Bi-Weekly Litigation/Risk Update:** Status of all active matters rated Significant, High, or Critical; new " +
+  "matters; material developments; and updated exposure assessments",
+  "**Monthly CFO Report:** Reserve reconciliation, legal spend analysis, insurance claim status, and updated net " +
+  "exposure calculations",
+  "**Quarterly Board Report:** Comprehensive portfolio-wide legal risk summary, including all matters, exposure " +
+  "trends, reserve adequacy, and insurance program status (see Section 10(G))",
+  "**Ad Hoc Notifications:** Immediate written notification for any matter rated Critical or any event requiring " +
+  "board-level attention",
+]));
+children.push(para("The Legal Risk Tracker and Legal Risk Dashboard (see Section 10 and Attachment B) are the primary " +
+  "tools for these updates."));
 
 // ------ SECTION 10: LEGAL RISK TRACKING & REPORTING ------
 children.push(pageBreak());
 children.push(sectionHeader("10. Legal Risk Tracking & Reporting"));
 children.push(para(
-  "The Legal Department maintains a Legal Risk Tracker to provide visibility into legal matters affecting the Company\u2019s portfolio."
+  "The Legal Department maintains a Legal Risk Tracker and Legal Risk Dashboard to provide structured visibility " +
+  "into legal matters affecting the Company\u2019s portfolio. All risk assessments, exposure estimates, and related " +
+  "analyses set forth in this section and in the Legal Risk Tracker and Dashboard are preliminary evaluations " +
+  "prepared at the direction of counsel for the purpose of providing legal advice to the Company. These assessments " +
+  "are subject to change as additional facts and circumstances become known and do not constitute final " +
+  "determinations of liability or loss."
 ));
-children.push(para("The tracker serves as a centralized tool for:"));
+children.push(para("The Legal Risk Tracker serves as a centralized tool for:"));
 children.push(...bulletList([
-  "Monitoring litigation and disputes",
-  "Tracking tenant defaults and risk exposure",
-  "Identifying trends and recurring issues",
-  "Supporting executive decision-making",
+  "Monitoring litigation, disputes, and regulatory matters",
+  "Tracking tenant defaults, bankruptcies, and credit risk exposure",
+  "Calculating probability-weighted expected losses for reserve recommendations",
+  "Differentiating gross and net exposure (before and after insurance recoveries)",
+  "Identifying trends, recurring issues, and systemic risks across the portfolio",
+  "Supporting executive and board-level decision-making",
 ]));
 
 children.push(subHeader("A. Risk Categories"));
-children.push(para("Legal matters are categorized into:"));
+children.push(para("Legal matters are categorized into the following risk categories for tracking and reporting purposes:"));
 children.push(...bulletList([
-  "Litigation",
-  "Tenant defaults",
-  "Bankruptcy",
-  "Insurance claims",
-  "Regulatory matters",
-  "Environmental issues",
+  "**Litigation:** Active and threatened lawsuits, arbitrations, and mediations",
+  "**Tenant Defaults:** Payment defaults, lease violations, and abandonment matters",
+  "**Bankruptcy:** Tenant and counterparty bankruptcy proceedings",
+  "**Insurance Claims:** Property damage claims, liability claims, and coverage disputes",
+  "**Regulatory Matters:** Governmental investigations, inspections, citations, and compliance matters",
+  "**Environmental:** Environmental contamination, remediation obligations, and compliance matters",
+  "**Employment:** Employment disputes, workers\u2019 compensation claims, and workplace investigations",
+  "**Contract Disputes (Non-Lease):** Vendor disputes, construction claims, and service agreement disputes",
+  "**Corporate/Governance:** Entity compliance, governance matters, and fiduciary issues",
+  "**Data Privacy/Security:** Data breach incidents, privacy compliance matters, and cybersecurity issues",
 ]));
 
 children.push(subHeader("B. Risk Assessment Methodology"));
-children.push(para("Each matter is evaluated based on a probability-impact framework:"));
+children.push(para(
+  "Each matter in the Legal Risk Tracker is evaluated using a five-tier probability-impact framework. All risk " +
+  "assessments are preliminary evaluations subject to revision as facts and circumstances develop."
+));
 children.push(emptyLine());
 children.push(simpleTable(
-  ["Rating", "Probability", "Financial Impact"],
+  ["Rating", "Probability of Adverse Outcome", "Gross Financial Impact Range", "Update Frequency"],
   [
-    ["High", "Likely (>70%)", "> $500,000"],
-    ["Medium", "Possible (30\u201370%)", "$100,000 \u2013 $500,000"],
-    ["Low", "Unlikely (<30%)", "< $100,000"],
+    ["Critical", "Probable (> 80%)", "> $2,000,000", "Weekly (or upon any material development)"],
+    ["High", "Likely (60% \u2013 80%)", "$500,000 \u2013 $2,000,000", "Bi-weekly"],
+    ["Significant", "Possible (40% \u2013 60%)", "$150,000 \u2013 $500,000", "Monthly"],
+    ["Moderate", "Unlikely (20% \u2013 40%)", "$50,000 \u2013 $150,000", "Monthly"],
+    ["Low", "Remote (< 20%)", "$0 \u2013 $50,000", "Quarterly"],
   ],
-  [3120, 3120, 3120]
+  [1560, 2340, 2340, 3120]
 ));
 children.push(emptyLine());
 children.push(para("Each matter also receives a qualitative assessment considering:"));
 children.push(...bulletList([
-  "Strategic or precedent risk",
+  "Strategic or precedent-setting risk to the Company\u2019s business operations",
   "Potential reputational impact",
-  "Insurance coverage availability",
-  "Strength of the Company\u2019s legal position",
+  "Insurance coverage availability and likelihood of recovery",
+  "Strength of the Company\u2019s legal position based on facts and applicable law",
+  "Jurisdictional considerations and venue risk",
+  "Complexity and anticipated duration of the matter",
+]));
+
+children.push(para("**B.1. Risk Rating Changes.** Any change in risk rating must be:"));
+children.push(...bulletList([
+  "Approved by the General Counsel, with documented rationale for the change",
+  "Supported by a written explanation of the factual or legal developments that warrant the change",
+  "Recorded in the Legal Risk Tracker with the date of change, prior rating, new rating, and the General Counsel\u2019s approval",
+  "Communicated to executive leadership at the next scheduled reporting cycle (or immediately if the change results " +
+  "in a Critical rating)",
+]));
+
+children.push(subHeader("C. Probability-Weighted Expected Loss Methodology"));
+children.push(para(
+  "For each matter rated Moderate or above, the Legal Department must calculate a probability-weighted expected " +
+  "loss (\u201CPWEL\u201D) to inform reserve recommendations. The PWEL methodology is as follows:"
+));
+children.push(...numberedList([
+  "**Identify Potential Outcomes.** For each matter, identify the reasonably possible outcomes (e.g., full adverse " +
+  "judgment, partial adverse judgment, settlement at various ranges, favorable dismissal).",
+  "**Assign Probability Weights.** Assign a probability percentage to each identified outcome, based on the " +
+  "responsible attorney\u2019s assessment of the facts, applicable law, and litigation dynamics. All probability " +
+  "weights for a given matter must sum to 100%.",
+  "**Estimate Financial Impact.** For each outcome, estimate the gross financial impact to the Company (including " +
+  "damages, attorneys\u2019 fees, costs, and any other reasonably foreseeable expenses).",
+  "**Calculate PWEL.** Multiply each outcome\u2019s financial impact by its probability weight, then sum the products. " +
+  "The resulting figure is the PWEL for the matter.",
+  "**Determine Net PWEL.** Subtract reasonably anticipated insurance recoveries (see Section 10(D)) from the gross " +
+  "PWEL to arrive at the net PWEL.",
+  "**Document Assumptions.** All PWEL calculations must include a written summary of the assumptions underlying " +
+  "the probability assignments and financial estimates. These calculations are privileged attorney work product and " +
+  "must be stored in the Privileged Legal Site.",
+], "numbers2"));
+children.push(para(
+  "PWEL calculations must be updated at each reporting cycle for the applicable risk rating tier, or upon any " +
+  "material change in circumstances."
+));
+
+children.push(subHeader("D. Gross vs. Net Exposure Tracking"));
+children.push(para(
+  "The Legal Risk Tracker must separately track gross exposure and net exposure for each matter:"
+));
+children.push(...bulletList([
+  "**Gross Exposure:** The total estimated financial impact to the Company before consideration of any insurance " +
+  "recoveries, indemnification rights, or other offsets",
+  "**Insurance Recovery Estimate:** The amount the Company reasonably expects to recover under applicable insurance " +
+  "policies, net of deductibles, self-insured retentions, and coverage limitations. The estimate must identify the " +
+  "applicable policy, policy period, coverage type (occurrence vs. claims-made), and any coverage defenses or " +
+  "exclusions asserted by the carrier",
+  "**Other Offsets:** Any indemnification, contribution, or subrogation rights that may reduce the Company\u2019s net exposure",
+  "**Net Exposure:** Gross exposure minus reasonably anticipated insurance recoveries and other offsets",
 ]));
 children.push(para(
-  "Risk ratings are reviewed and updated at each reporting cycle. Changes in risk rating must be documented with supporting rationale."
+  "The Legal Department must coordinate with the Company\u2019s insurance broker and/or risk management function to " +
+  "validate insurance recovery estimates. Net exposure figures must be clearly distinguished from gross exposure in " +
+  "all reports and dashboards to ensure that executive leadership and the Board understand the Company\u2019s actual " +
+  "risk position."
 ));
 
-children.push(subHeader("C. Reporting Cadence"));
-children.push(para("The Legal Risk Tracker is updated on a regular basis:"));
+children.push(subHeader("E. Reserve Reconciliation with Finance"));
+children.push(para(
+  "The Legal Department and Finance must conduct a bilateral reserve reconciliation process to ensure that legal " +
+  "reserves accurately reflect current exposure assessments. The following procedures govern the reconciliation:"
+));
+children.push(...numberedList([
+  "**Monthly Reserve Review.** The Legal Department provides Finance with updated PWEL calculations and net exposure " +
+  "estimates for all matters rated Moderate or above. Finance compares these estimates against currently booked " +
+  "reserves and identifies any discrepancies.",
+  "**Quarterly Reserve Reconciliation Meeting.** The General Counsel and CFO (or their designees) conduct a formal " +
+  "quarterly reconciliation meeting to review all active reserves, discuss any discrepancies between Legal\u2019s " +
+  "exposure estimates and Finance\u2019s booked reserves, and agree on reserve adjustments.",
+  "**Reserve Adjustment Process.** Reserve increases or decreases exceeding $50,000 for any single matter require " +
+  "written concurrence from both the General Counsel and the CFO. Adjustments exceeding $250,000 require CEO " +
+  "notification. Adjustments exceeding $1,000,000 require Board notification.",
+  "**Finance-to-Legal Feedback.** Finance must promptly notify the Legal Department of any external inquiries " +
+  "regarding legal reserves (e.g., auditor inquiries, lender questions, investor due diligence requests) so that " +
+  "the Legal Department can coordinate the response and ensure privilege protection.",
+  "**Documentation.** All reserve reconciliation activities, adjustment approvals, and related communications must " +
+  "be documented and retained in accordance with the Company\u2019s retention schedule. Reserve-related communications " +
+  "between Legal and Finance should be structured as requests for legal advice or as legal advice to maintain " +
+  "privilege protection where appropriate.",
+], "numbers2"));
+
+children.push(subHeader("F. Insurance Program Integration"));
+children.push(para(
+  "The Legal Department must maintain current knowledge of the Company\u2019s insurance program and integrate insurance " +
+  "considerations into all risk tracking and reporting activities. The following requirements apply:"
+));
 children.push(...bulletList([
-  "High priority matters: weekly",
-  "Medium priority matters: monthly",
-  "Low priority matters: quarterly",
+  "The Legal Department must maintain a current summary of the Company\u2019s insurance program, including policy types, " +
+  "carriers, policy periods, coverage limits, deductibles/self-insured retentions, and key exclusions",
+  "For each new matter entered in the Legal Risk Tracker, the responsible attorney must evaluate applicable insurance " +
+  "coverage and document the coverage analysis in the matter file",
+  "All notices to insurance carriers must be prepared or reviewed by the Legal Department to ensure compliance with " +
+  "policy notice requirements and preservation of coverage rights",
+  "The Legal Department must track insurer reserving positions and compare them against the Department\u2019s own exposure " +
+  "assessments; material discrepancies must be documented and addressed with the carrier",
+  "Gross and net exposure must be separately reported in all dashboards and reports provided to executive leadership " +
+  "and the Board (see Section 10(D))",
 ]));
-children.push(para(
-  "Updated reports are shared with executive leadership in advance of scheduled legal update meetings. The Legal Risk Dashboard (Attachment B) is prepared monthly for the CFO and quarterly for board-level reporting."
-));
 
-children.push(subHeader("D. Integration with Reserve Analysis"));
-children.push(para(
-  "Risk data from the Legal Risk Tracker is used to inform the Company\u2019s reserve analysis, prepared in coordination with Finance. The Department provides estimated exposure ranges for all active matters rated Medium or High, updated quarterly or upon any material change in circumstances."
-));
-
-children.push(subHeader("E. Use of Risk Data"));
-children.push(para("Risk data is used to:"));
+children.push(subHeader("G. Reporting Cadence and Dashboard Distribution"));
+children.push(para("**G.1. Reporting Cadence.** The Legal Risk Tracker must be updated at the frequency specified in " +
+  "the Risk Assessment Methodology table (Section 10(B)) for each risk rating tier. In addition:"));
 children.push(...bulletList([
-  "Inform reserve decisions",
-  "Support strategic planning",
-  "Identify areas for risk mitigation",
-  "Improve lease documentation and processes",
+  "The Legal Risk Dashboard (Attachment B) must be prepared monthly for distribution to the General Counsel, CEO, and CFO",
+  "A comprehensive Legal Risk Report must be prepared quarterly for the Board of Directors (or the Board\u2019s designated " +
+  "committee), covering all active matters, exposure trends, reserve adequacy, insurance program status, and any " +
+  "matters requiring Board action or awareness",
+  "Ad hoc reports must be prepared and distributed immediately for any new matter rated Critical or any material " +
+  "development in an existing matter that changes the risk rating to Critical",
+  "The General Counsel must present the quarterly Legal Risk Report to the Board (or designated committee) in person " +
+  "or by teleconference, with an opportunity for questions and discussion",
+]));
+
+children.push(para("**G.2. Dashboard Distribution Controls.** The Legal Risk Dashboard and all related risk reports " +
+  "are privileged and confidential attorney-client communications and attorney work product. Distribution must be " +
+  "controlled as follows:"));
+children.push(...bulletList([
+  "All dashboards and risk reports must bear the designation: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 ATTORNEY-CLIENT " +
+  "COMMUNICATION \u2013 ATTORNEY WORK PRODUCT\u201D",
+  "Distribution of the monthly Dashboard is limited to: General Counsel, CEO, and CFO",
+  "Distribution of the quarterly Board Report is limited to: Board members, General Counsel, CEO, and CFO",
+  "No dashboard or risk report may be distributed to any person not on the approved distribution list without the " +
+  "prior written approval of the General Counsel",
+  "Electronic copies must be stored exclusively in the Privileged Legal Site; hard copies (if any) must be collected " +
+  "after meetings and securely destroyed",
+  "The General Counsel must maintain a distribution log recording the date, recipients, and version of each dashboard " +
+  "and report distributed",
+]));
+
+children.push(subHeader("H. Use of Risk Data"));
+children.push(para("Risk data from the Legal Risk Tracker is used to:"));
+children.push(...bulletList([
+  "Inform reserve decisions through the PWEL methodology and bilateral reconciliation process",
+  "Support strategic planning and portfolio management decisions",
+  "Identify areas for proactive risk mitigation and loss prevention",
+  "Improve standard lease forms, contract templates, and operational procedures based on claims experience",
+  "Evaluate outside counsel performance and litigation management effectiveness",
+  "Support insurance program renewals and coverage negotiations through claims history analysis",
 ]));
 
 // ------ SECTION 11: TRAINING & CONTINUOUS IMPROVEMENT ------
 children.push(pageBreak());
 children.push(sectionHeader("11. Training & Continuous Improvement"));
 children.push(para(
-  "The Legal Department supports ongoing training and development to improve collaboration, reduce risk, and enhance operational efficiency."
+  "The Legal Department is responsible for maintaining a comprehensive training program to ensure that all Company " +
+  "personnel understand their obligations under this Manual and applicable law, and for implementing a continuous " +
+  "improvement framework to enhance the Department\u2019s effectiveness over time."
 ));
 
-children.push(subHeader("A. Internal Training Program"));
-children.push(para("The Legal Department conducts training for internal stakeholders on the following schedule:"));
+children.push(subHeader("A. Training Schedule and Requirements"));
+children.push(para("The Legal Department must conduct training for internal stakeholders in accordance with the " +
+  "following schedule:"));
 children.push(emptyLine());
 children.push(simpleTable(
-  ["Audience", "Frequency", "Topics"],
+  ["Audience", "Frequency", "Topics", "Completion Requirement"],
   [
-    ["Asset Management", "Quarterly", "Lease provisions, negotiation practices, document workflows"],
-    ["Property Management", "Quarterly", "Incident reporting, insurance claims, escalation procedures"],
-    ["Finance", "Semi-annually", "Legal risk reporting, reserve integration, governance processes"],
-    ["All Departments", "Annually", "Confidentiality obligations, privilege preservation, policy updates"],
-    ["New Hires (Legal)", "Upon onboarding", "Systems training, standard forms, naming conventions, workflows"],
+    ["Legal Department Personnel", "Quarterly",
+     "Litigation hold procedures, privilege preservation, risk assessment updates, regulatory developments, " +
+     "new case law, Manual updates",
+     "Attendance record and sign-off sheet required"],
+    ["Asset Management", "Quarterly",
+     "Lease provisions and negotiation practices, document workflows, escalation protocols, privilege preservation " +
+     "in lease negotiations",
+     "Attendance record and sign-off sheet required"],
+    ["Property Management", "Quarterly",
+     "Incident reporting and escalation procedures, insurance claims process, safety and environmental compliance, " +
+     "litigation hold obligations for property-level personnel",
+     "Attendance record and sign-off sheet required"],
+    ["Finance", "Semi-annually",
+     "Legal risk reporting and reserve integration, privilege preservation in financial reporting, governance " +
+     "processes, insurance program overview",
+     "Attendance record and sign-off sheet required"],
+    ["Human Resources", "Semi-annually",
+     "Employment law updates, workplace investigation procedures, data privacy obligations, document retention " +
+     "for employment records",
+     "Attendance record and sign-off sheet required"],
+    ["All Departments (Company-wide)", "Annually",
+     "Confidentiality obligations, privilege preservation, document retention and litigation hold overview, " +
+     "escalation protocols, data privacy fundamentals, Manual updates",
+     "Attendance record and sign-off sheet required; completion tracked by HR"],
+    ["New Hires (All Departments)", "Within 30 days of hire",
+     "Overview of escalation protocols, confidentiality obligations, document retention requirements, privilege " +
+     "preservation basics",
+     "Sign-off sheet required; tracked by HR"],
+    ["New Hires (Legal Department)", "Within 30 days of hire",
+     "Comprehensive Manual review, systems training, standard forms, naming conventions, active matter overview",
+     "Completion checklist signed by supervisor and new hire"],
   ],
-  [2340, 2340, 4680]
+  [1560, 1200, 3600, 3000]
 ));
 children.push(emptyLine());
 
-children.push(subHeader("B. New Hire Onboarding"));
-children.push(para("New Department personnel complete the following onboarding checklist:"));
+children.push(subHeader("B. Training Completion Tracking"));
+children.push(para("The Legal Department must maintain records of all training activities, including:"));
+children.push(...bulletList([
+  "**Attendance Records:** Sign-in sheets (physical or electronic) for each training session, recording the names " +
+  "and departments of all attendees",
+  "**Sign-Off Sheets:** Each attendee must sign a training acknowledgment confirming that the attendee attended the " +
+  "session, understood the material presented, and agrees to comply with the applicable policies and procedures",
+  "**Completion Reports:** The Legal Department must prepare a quarterly Training Completion Report summarizing all " +
+  "training sessions conducted, attendance rates by department, and any departments or individuals with outstanding " +
+  "training requirements",
+  "**Deficiency Follow-Up:** If any department\u2019s training completion rate falls below 90% for any required training, " +
+  "the Legal Department must notify the department head and coordinate make-up sessions within thirty (30) calendar days",
+  "**Records Retention:** All training attendance records, sign-off sheets, and completion reports must be retained " +
+  "for a minimum of five (5) years",
+]));
+
+children.push(subHeader("C. New Hire Onboarding"));
+children.push(para("New Legal Department personnel must complete the following onboarding checklist within thirty (30) " +
+  "calendar days of their start date:"));
 children.push(...numberedList([
-  "Review of this Manual and all attachments",
-  "Overview of the Company\u2019s entity structure and portfolio",
-  "Salesforce system training (intake, workflow, dashboard)",
-  "SharePoint training (document storage, collaboration, naming conventions)",
-  "Introduction to standard lease forms and key provisions",
-  "Review of active litigation and risk tracker",
-  "Introduction to outside counsel panel and billing guidelines",
-  "Review of confidentiality and privilege protocols",
+  "Review of this Manual and all attachments in their entirety",
+  "Overview of the Company\u2019s entity structure, portfolio, and organizational chart",
+  "Salesforce system training (intake workflows, pipeline dashboard, reporting)",
+  "SharePoint training (document storage, naming conventions, Privileged Legal Site access and protocols)",
+  "Introduction to standard lease forms and key commercial provisions",
+  "Review of the Legal Risk Tracker and active matter status",
+  "Introduction to the outside counsel panel, billing guidelines, and engagement procedures",
+  "Review of confidentiality, privilege preservation, and litigation hold protocols",
+  "Review of document retention schedule and destruction procedures",
+  "Review of escalation protocols and communication procedures",
 ], "numbers2"));
+children.push(para("The onboarding checklist must be signed by both the new hire and the supervising attorney upon " +
+  "completion and retained in the Department\u2019s personnel files."));
 
-children.push(subHeader("C. Training Materials"));
+children.push(subHeader("D. Legal Updates and Continuing Education"));
 children.push(para(
-  "Training materials, including presentation decks, reference guides, and recorded sessions, are stored in a dedicated SharePoint folder maintained by the Department. Materials are updated as procedures, systems, or standard forms change."
+  "The Legal Department monitors legal, regulatory, and market developments and provides updates to internal " +
+  "stakeholders through the following channels:"
 ));
+children.push(...bulletList([
+  "**Legal Alerts:** Written memoranda distributed to relevant departments upon the occurrence of significant legal " +
+  "or regulatory developments affecting the Company\u2019s operations (e.g., changes in landlord-tenant law, new " +
+  "environmental regulations, data privacy law developments)",
+  "**Training Session Integration:** Significant legal developments are incorporated into the next scheduled training " +
+  "session for affected departments",
+  "**Standing Meeting Updates:** The Legal Department includes a \u201CLegal Developments\u201D agenda item in standing " +
+  "interdepartmental meetings to communicate relevant updates",
+  "**External CLE and Professional Development:** Legal Department personnel are encouraged to attend continuing " +
+  "legal education programs relevant to the Company\u2019s operations and must complete any minimum CLE requirements " +
+  "mandated by their bar admission jurisdiction",
+]));
 
-children.push(subHeader("D. Legal Updates"));
+children.push(subHeader("E. Post-Litigation and Post-Transaction Reviews"));
 children.push(para(
-  "The Legal Department monitors legal and market developments and provides updates to internal stakeholders as appropriate. Updates may be distributed via email memoranda, incorporated into training sessions, or presented at standing interdepartmental meetings."
+  "For all matters rated Significant or above at any point during their lifecycle, and for any other matter " +
+  "designated by the General Counsel, the Legal Department must conduct a post-resolution review. To preserve " +
+  "the privileged nature of these reviews, the following requirements apply:"
 ));
+children.push(...bulletList([
+  "All post-litigation and post-transaction reviews must be conducted at the direction of the General Counsel for " +
+  "the express purpose of obtaining legal advice regarding the Company\u2019s legal strategies, risk management practices, " +
+  "and litigation preparedness",
+  "Review memoranda must be captioned: \u201CPRIVILEGED AND CONFIDENTIAL \u2013 PREPARED AT THE DIRECTION OF COUNSEL FOR " +
+  "THE PURPOSE OF PROVIDING LEGAL ADVICE\u201D",
+  "Review memoranda must be prepared by or under the supervision of an attorney and must contain legal analysis and " +
+  "recommendations, not merely factual summaries of outcomes",
+  "Distribution must be limited to Legal Department personnel, the General Counsel, and specifically authorized " +
+  "executive leadership on a need-to-know basis",
+  "Review memoranda must be stored exclusively in the Privileged Legal Site",
+  "The General Counsel must approve the distribution list for each review memorandum before distribution",
+]));
+children.push(para("Post-resolution reviews must address the following topics:"));
+children.push(...bulletList([
+  "Legal analysis of the outcome in light of the Company\u2019s litigation strategy",
+  "Assessment of outside counsel performance and recommendations regarding future engagements",
+  "Identification of legal or contractual provisions that contributed to the Company\u2019s exposure, with " +
+  "recommendations for amendments to standard forms or procedures",
+  "Evaluation of the effectiveness of the Company\u2019s escalation, litigation hold, and document preservation procedures",
+  "Recommendations for training or policy changes to reduce the likelihood of similar matters in the future",
+]));
 
-children.push(subHeader("E. Continuous Improvement"));
-children.push(para("The Legal Department regularly reviews:"));
-children.push(...bulletList([
-  "Leasing processes",
-  "Litigation outcomes",
-  "Recurring issues",
-]));
-children.push(para("To identify opportunities to:"));
-children.push(...bulletList([
-  "Improve standard lease forms",
-  "Streamline workflows",
-  "Reduce legal exposure",
-]));
+children.push(subHeader("F. Continuous Improvement Metrics"));
 children.push(para(
-  "Post-litigation and post-transaction reviews are conducted for significant matters to identify lessons learned. Findings are documented and, where applicable, incorporated into updated procedures, training materials, or standard forms."
+  "The Legal Department must track and report on the following performance metrics to drive continuous improvement. " +
+  "These metrics must be included in the quarterly Legal Department report to executive leadership:"
+));
+children.push(emptyLine());
+children.push(simpleTable(
+  ["Metric", "Measurement", "Target", "Reporting Frequency"],
+  [
+    ["Litigation Hold Compliance Rate",
+     "Percentage of custodians acknowledging hold within 72 hours", "\u2265 95%", "Quarterly"],
+    ["Litigation Hold Re-Certification Rate",
+     "Percentage of custodians completing quarterly re-certification", "\u2265 95%", "Quarterly"],
+    ["IT Litigation Hold SLA Compliance",
+     "Percentage of IT coordination forms completed within SLA", "\u2265 90%", "Quarterly"],
+    ["Escalation Timeliness",
+     "Percentage of matters escalated within applicable timeline", "\u2265 90%", "Quarterly"],
+    ["Training Completion Rate",
+     "Percentage of required training sessions completed by department", "\u2265 90%", "Quarterly"],
+    ["Reserve Accuracy",
+     "Variance between PWEL estimate and actual resolution amount", "Within 25% for matters > $100K", "Annually"],
+    ["Outside Counsel Budget Adherence",
+     "Percentage of matters resolved within approved budget", "\u2265 80%", "Quarterly"],
+    ["Average Matter Resolution Time",
+     "Average elapsed time from matter opening to resolution, by category", "Trend improvement year-over-year", "Annually"],
+    ["Post-Resolution Review Completion",
+     "Percentage of eligible matters with completed post-resolution review", "100%", "Quarterly"],
+    ["Document Retention Compliance",
+     "Annual audit findings on retention schedule adherence", "Zero material findings", "Annually"],
+  ],
+  [1800, 2700, 2340, 1560]
+));
+children.push(emptyLine());
+children.push(para(
+  "The General Counsel must review these metrics quarterly and identify areas requiring corrective action. Material " +
+  "deficiencies must be addressed through updated procedures, additional training, or resource allocation adjustments, " +
+  "as appropriate."
 ));
 
 // ------ SECTION 12: TECHNOLOGY & WORKFLOW OPTIMIZATION ------
